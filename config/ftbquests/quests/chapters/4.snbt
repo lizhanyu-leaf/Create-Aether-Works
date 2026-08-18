@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4"
+	group: "0F6E9688F8B17385"
+	icon: {
+		id: "kubejs:basic_mechine_set"
+	}
+	id: "09D8B51B5B3F549B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4BE3EBC51682F9AE"]
+			id: "3B7B5BE7327832A3"
+			tasks: [{
+				id: "352AB63D0B0A8242"
+				item: { count: 1, id: "kubejs:wooden_mechanical_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E8AEC57DF818D43"]
+			id: "3FFA774667845FD9"
+			tasks: [{
+				id: "420C55AC73683CD8"
+				item: { count: 1, id: "kubejs:copper_mechanical_core" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "4BE3EBC51682F9AE"
+			tasks: [{
+				id: "10522EB40136242B"
+				item: { count: 1, id: "kubejs:wooden_hand" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2E8AEC57DF818D43"
+			tasks: [{
+				id: "3C8F16F664CC9E6F"
+				item: { count: 1, id: "create:copper_casing" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FFA774667845FD9"]
+			id: "04964DD2609ADD90"
+			tasks: [{
+				id: "71B479BC6F4FB4BB"
+				item: { count: 1, id: "kubejs:fluid_set" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B7B5BE7327832A3"]
+			id: "55491FAEFD5DDE99"
+			tasks: [{
+				id: "008836F9EA96FB89"
+				item: { count: 1, id: "kubejs:basic_mechine_set" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+}

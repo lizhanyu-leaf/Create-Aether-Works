@@ -1,0 +1,35 @@
+.probe/*
+.cache/*
+
+.mejs/*
+.mixin.out/*
+.vscode/*
+crash-reports/*
+local/*
+logs/*
+modernfix/*
+oeb/*
+oei/*
+saves/*
+debug/*
+backups/*
+downloads/*
+screenshots/*
+xaero/*
+/XaeroWaypoints*/
+
+kubejs/config/*
+kubejs/jsconfig.json
+kubejs/*/jsconfig.json
+
+authlib-injector.log
+command_history.txt
+minecraftinstance.json
+user-prefs.json
+usercache.json
+usernamecache.json
+
+Create The Sky Blocks.jar
+Create The Sky Blocks.json
+
+resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip

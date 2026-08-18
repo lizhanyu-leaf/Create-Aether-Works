@@ -1,0 +1,317 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3"
+	group: "0F6E9688F8B17385"
+	icon: {
+		id: "minecraft:bee_nest"
+	}
+	id: "54883D8FAE2B0927"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:honey_bucket"
+			}
+			id: "5A39E0DA2EF2681C"
+			rewards: [
+				{
+					id: "3CD794B28981AEC2"
+					item: {
+						count: 1
+						id: "create:honey_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7547B55E55243F76"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30442155ADEE1A3C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A39E0DA2EF2681C"]
+			id: "066DC44DF0B37D25"
+			rewards: [{
+				id: "07F6966AB6324F23"
+				item: {
+					count: 1
+					id: "minecraft:bee_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40A4974E5DC56D6F"
+					item: { count: 1, id: "productivebees:bee_cage" }
+					type: "item"
+				}
+				{
+					id: "386CC237EB338B82"
+					item: { count: 1, id: "kubejs:mobile_beehive" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["066DC44DF0B37D25"]
+			hide_dependent_lines: true
+			id: "0CD4E83C28DF6168"
+			rewards: [{
+				id: "0558281B9E11088F"
+				item: {
+					count: 1
+					id: "minecraft:bee_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7216E46515002DEC"
+				item: { count: 1, id: "minecraft:honeycomb_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CD4E83C28DF6168"]
+			id: "06157F589BB93DE2"
+			rewards: [{
+				id: "1DAD58C8FD281332"
+				item: {
+					components: {
+						"minecraft:entity_data": {
+							id: "productivebees:configurable_bee"
+							type: "productivebees:oak_log"
+						}
+					}
+					count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4196L
+				id: "26A0D10B771E65BB"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0CD4E83C28DF6168"]
+			id: "7B9272BA6D435710"
+			rewards: [{
+				id: "0694188FC877DC70"
+				item: {
+					components: {
+						"minecraft:entity_data": {
+							id: "productivebees:configurable_bee"
+							type: "productivebees:stone"
+						}
+					}
+					count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4196L
+				id: "1CA7F36A9BCB3BD6"
+				item: { count: 1, id: "minecraft:stone" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CD4E83C28DF6168"]
+			id: "3273475FBFF3C99E"
+			rewards: [{
+				id: "6ECB5A755B409045"
+				item: {
+					components: {
+						"minecraft:entity_data": {
+							id: "productivebees:configurable_bee"
+							type: "productivebees:slimy"
+						}
+					}
+					count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "226701F79A722D30"
+				item: { count: 1, id: "minecraft:slime_ball" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CD4E83C28DF6168"]
+			id: "7D0B9D374A0B86AD"
+			rewards: [{
+				id: "275906E687FE1D7B"
+				item: {
+					components: {
+						"minecraft:entity_data": {
+							id: "productivebees:configurable_bee"
+							type: "productivebees:blazing"
+						}
+					}
+					count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "0562017142A0A89B"
+				item: { count: 1, id: "minecraft:blaze_powder" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CD4E83C28DF6168"]
+			id: "0DBC6021AB638123"
+			rewards: [{
+				id: "534DE587EB469552"
+				item: {
+					components: {
+						"minecraft:entity_data": {
+							id: "productivebees:configurable_bee"
+							type: "productivebees:iron"
+						}
+					}
+					count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "574D5CC801E2EC04"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CD4E83C28DF6168"]
+			id: "5665D2615B5B16AE"
+			rewards: [{
+				id: "69BEF597C4FE7245"
+				item: {
+					components: {
+						"minecraft:entity_data": {
+							id: "productivebees:configurable_bee"
+							type: "productivebees:gold"
+						}
+					}
+					count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "453BD43C0899F93C"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CD4E83C28DF6168"]
+			id: "68BE9DB369A7C377"
+			rewards: [{
+				id: "1CD2DF38A58DD6AA"
+				item: {
+					components: {
+						"minecraft:entity_data": {
+							id: "productivebees:configurable_bee"
+							type: "productivebees:zinc"
+						}
+					}
+					count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "4BD93764F252E846"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CD4E83C28DF6168"]
+			id: "59D417B05688FEFD"
+			rewards: [{
+				id: "06F92BD2FCC3CFDA"
+				item: {
+					components: {
+						"minecraft:entity_data": {
+							id: "productivebees:configurable_bee"
+							type: "productivebees:copper"
+						}
+					}
+					count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "7501C185895D6B6F"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+	]
+}

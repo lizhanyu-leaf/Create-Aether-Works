@@ -1,0 +1,31 @@
+[chain_interaction]
+	#Maximum connected fluid/encased fluid pipe blocks affected by one chain operation.
+	# Default: 64
+	# Range: 1 ~ 4096
+	maxPipeBlocks = 64
+	#Maximum shaft or encased shaft blocks affected by one chain operation.
+	# Default: 128
+	# Range: 1 ~ 4096
+	maxShaftBlocks = 128
+	#Maximum belt segments affected by one chain operation.
+	# Default: 128
+	# Range: 1 ~ 4096
+	maxBeltBlocks = 128
+	#Maximum chute affected by one chain operation.
+	# Default: 128
+	# Range: 1 ~ 4096
+	maxChuteBlocks = 128
+	#Maximum squared block reach allowed for the empty-hand pipe-connection packet.
+	# Default: 64.0
+	# Range: 1.0 ~ 1024.0
+	maxEmptyHandPipeReachSqr = 64.0
+	#Enable the chain interaction view overlay.(Will disable with FTB-Ultimine)
+	enableView = true
+	#Enable empty hand can modify pipe.
+	enableEmptyHandPipe = true
+	#Enable auto encase or open window for chute or fluid pipe when take casing or wrench by off hand
+	enableAutoInteraction = true
+	#Enable FTB Ultimine compatibility. When FTB Ultimine is installed, CRH will use Ultimine-selected blocks for chain operations.
+	compatFtbUltimine = true
+	#Disable CRH built-in chain selection when FTB Ultimine compatibility is active.
+	disableBuiltinChainWhenFtbUltimineCompatEnabled = true

@@ -1,0 +1,39 @@
+{
+    "item.kubejs.wooden_hand": "木质手部零件",
+    "item.kubejs.incomplete_wooden_hand": "木质手部零件[半成品]",
+    
+    "item.kubejs.basic_mechine_set": "基础机械集合",
+    "item.kubejs.incomplete_basic_mechine_set": "基础机械集合[半成品]",
+    "item.kubejs.fluid_set": "流体集合",
+    "item.kubejs.incomplete_fluid_set": "流体集合[半成品]",
+
+    "item.kubejs.mobile_beehive": "便携式蜂箱",
+
+    "item.kubejs.wooden_mechanical_core": "木质机械核心",
+    "item.kubejs.copper_mechanical_core": "铜质机械核心",
+    "item.kubejs.wood_set": "木质集合",
+
+    "item.kubejs.incomplete_chain": "锁链[半成品]",
+    "item.kubejs.incomplete_bee_cage": "蜜蜂笼[半成品]",
+    "item.kubejs.incomplete_super_glue": "强力胶[半成品]",
+
+    "item.kubejs.compression_iron_ingot": "压缩铁锭 I",
+    "item.kubejs.compression_iron_ingot_tier_2": "压缩铁锭 II",
+    "item.kubejs.compression_iron_ingot_tier_3": "压缩铁锭 III",
+
+    "item.kubejs.compression_gold_ingot": "压缩金锭 I",
+    "item.kubejs.compression_gold_ingot_tier_2": "压缩金锭 II",
+    "item.kubejs.compression_gold_ingot_tier_3": "压缩金锭 III",
+
+    "item.kubejs.compression_copper_ingot": "压缩铜锭 I",
+    "item.kubejs.compression_copper_ingot_tier_2": "压缩铜锭 II",
+    "item.kubejs.compression_copper_ingot_tier_3": "压缩铜锭 III",
+
+    "item.kubejs.compression_andesite_alloy": "压缩安山合金 I",
+    "item.kubejs.compression_andesite_alloy_tier_2": "压缩安山合金 II",
+    "item.kubejs.compression_andesite_alloy_tier_3": "压缩安山合金 III",
+
+    "tooltip.need_bee": "需要：",
+    "kubejs.recipe.consume": "消耗方块",
+    "kubejs.recipe.not_consume": "不消耗方块"
+}

@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"recipe":"create:kjs/wooden_mechanical_core","recipeType":"create:mechanical_crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"kubejs:basic_mechine_set"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:kjs/wooden_hand","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"create:shaft"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
