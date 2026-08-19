@@ -875,5 +875,38 @@
 			x: -6.0d
 			y: -5.5d
 		}
+		{
+			dependencies: ["20D23C10A18AFB15"]
+			id: "4A5023EB07ED4876"
+			tasks: [{
+				id: "6C5027795581F931"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A5023EB07ED4876"]
+			id: "62D0261A551CA85F"
+			tasks: [{
+				id: "14354277D812C4F2"
+				item: { count: 1, id: "create:powdered_obsidian" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62D0261A551CA85F"]
+			id: "609D6EFC23189F54"
+			tasks: [{
+				id: "680B54A7D2AAF280"
+				item: { count: 1, id: "create:sturdy_sheet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
 	]
 }

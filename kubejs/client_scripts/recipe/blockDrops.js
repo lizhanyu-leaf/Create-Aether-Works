@@ -198,3 +198,12 @@ JEIAddedEvents.registerRecipes(event => {
         }
     }
 });
+
+JEIAddedEvents.registerRecipeCatalysts(event => {
+    const { jeiHelpers } = event.data
+
+    event.data["addRecipeCatalyst(net.minecraft.world.item.ItemStack,mezz.jei.api.recipe.RecipeType[])"]
+        (Item.of('create:mechanical_drill'), [
+            jeiHelpers.getRecipeType('kubejs:block_drops').get(),
+            jeiHelpers.getRecipeType('kubejs:comb_block_drops').get()])
+})

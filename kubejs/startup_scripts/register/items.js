@@ -36,4 +36,18 @@ StartupEvents.registry('item', event => {
     event.create('incomplete_chain')
     event.create('incomplete_bee_cage')
     event.create('incomplete_super_glue')
+
+    event.create('natural_essence')
+    event.create('slime_essence')
+    event.create('sturdy_essence')
+    event.create('tree_essence')
+    event.create('water_essence')
+    event.create('blaze_essence')
+    event.create('smart_essence')
+    event.create('precision_essence')
+
+    event.create('essence_ingot')
+    event.create('essence_sheet')
+
+    event.create('creative_essence')
 })

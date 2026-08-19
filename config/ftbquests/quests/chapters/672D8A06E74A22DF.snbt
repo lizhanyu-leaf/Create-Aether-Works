@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "672D8A06E74A22DF"
+	group: "0F6E9688F8B17385"
+	id: "672D8A06E74A22DF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7019259410FB664C"
+			tasks: [{
+				id: "433270574F7703BC"
+				item: { count: 1, id: "kubejs:natural_essence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "735A9D9D989623E3"
+			tasks: [{
+				id: "0E42826159BAAF65"
+				item: { count: 1, id: "kubejs:slime_essence" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "30FA98EEB45E35BF"
+			tasks: [{
+				id: "63D6EEDD21166494"
+				item: { count: 1, id: "kubejs:sturdy_essence" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "40070CC2CB9C6465"
+			tasks: [{
+				id: "61830939AA77D9A9"
+				item: { count: 1, id: "kubejs:blaze_essence" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "361B98292C48003C"
+			tasks: [{
+				id: "5F5C0AEF9B9E890B"
+				item: { count: 1, id: "kubejs:precision_essence" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "0F6AD39F8801D309"
+			tasks: [{
+				id: "274864D1B26619F3"
+				item: { count: 1, id: "kubejs:smart_essence" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"735A9D9D989623E3"
+				"30FA98EEB45E35BF"
+				"361B98292C48003C"
+				"7019259410FB664C"
+				"40070CC2CB9C6465"
+				"0F6AD39F8801D309"
+			]
+			hide_dependency_lines: true
+			id: "78FD83B857E40A4B"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "33A2A8D329748B87"
+				item: { count: 1, id: "kubejs:essence_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

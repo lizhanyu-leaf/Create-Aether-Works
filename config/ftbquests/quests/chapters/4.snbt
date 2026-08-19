@@ -7,7 +7,7 @@
 		id: "kubejs:basic_mechine_set"
 	}
 	id: "09D8B51B5B3F549B"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -73,6 +73,16 @@
 			}]
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			id: "5F33F161886A025F"
+			tasks: [{
+				id: "4ED37DE5EAFACE7F"
+				item: { count: 1, id: "kubejs:wood_set" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 }

@@ -152,15 +152,15 @@ ServerEvents.recipes(event => {
                 ['create:incomplete_precision_mechanism', 'create:brass_nugget']
             ),
             create.deploying(
-                ['create:incomplete_precision_mechanism'],
+                ['create:incomplete_precision_mechanism', CreateItem.of('kubejs:precision_essence', 0.05)],
                 ['create:incomplete_precision_mechanism', 'create:super_glue']
             ),
             create.deploying(
-                ['create:incomplete_precision_mechanism'],
+                ['create:incomplete_precision_mechanism', CreateItem.of('kubejs:precision_essence', 0.05)],
                 ['create:incomplete_precision_mechanism', 'create:cogwheel']
             ),
             create.deploying(
-                ['create:incomplete_precision_mechanism'],
+                ['create:incomplete_precision_mechanism', CreateItem.of('kubejs:precision_essence', 0.05)],
                 ['create:incomplete_precision_mechanism', 'createaddition:gold_wire']
             ),
         ],
@@ -290,8 +290,97 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    create.pressing(
+        [
+            'kubejs:incomplete_super_glue',
+            CreateItem.of(Item.of('minecraft:slime_ball', 2), 0.9)
+        ],
+        [
+            'create:super_glue'
+        ]
+    )
+
+    create.pressing(
+        [
+            CreateItem.of(Item.of('minecraft:slime_ball', 8), 0.95),
+            CreateItem.of('kubejs:slime_essence', 0.2)
+        ],
+        [
+            'minecraft:slime_block'
+        ]
+    )
+
     create.deploying(
         ['kubejs:incomplete_super_glue'],
         ['create:iron_sheet', 'minecraft:iron_nugget']
     )
+
+    create.mixing(
+        [
+            'create:sturdy_sheet',
+            CreateItem.of('kubejs:sturdy_essence', 0.2)
+        ],
+        [
+            'create:powdered_obsidian',
+            'create:iron_sheet',
+            Fluid.of('minecraft:lava', 250)
+        ]
+    ).heated()
+
+    create.compacting(
+        ['create:blaze_cake_base'],
+        [
+            'minecraft:slime_ball',
+            'minecraft:sugar',
+            Item.of('create:cinder_flour', 4)
+        ]
+    )
+
+    create.mixing(
+        [
+            CreateItem.of(Item.of('kubejs:blaze_essence'), 0.2)
+        ],
+        [
+            'minecraft:blaze_powder',
+            Fluid.of('minecraft:lava', 125)
+        ]
+    ).superheated()
+
+    create.deploying(
+        [
+            'create:brass_ingot',
+            CreateItem.of(Item.of('kubejs:smart_essence'), 0.2)
+        ],
+        [
+            'create:brass_sheet',
+            'create:brass_nugget'
+        ]
+    )
+
+    create.mechanical_crafting(
+        'kubejs:essence_ingot',
+        [
+            'aaaabbbb',
+            'ccgggidd',
+            'ccgiiidd',
+            'eeeeffff'
+        ],
+        {
+            a: 'kubejs:blaze_essence',
+            b: 'kubejs:natural_essence',
+            c: 'kubejs:precision_essence',
+            d: 'kubejs:slime_essence',
+            e: 'kubejs:smart_essence',
+            f: 'kubejs:sturdy_essence',
+            g: 'create:andesite_alloy',
+            i: 'minecraft:gold_ingot'
+        }
+    )
+
+    create.pressing(
+        'kubejs:essence_sheet',
+        'kubejs:essence_ingot'
+    )
+
+    event.remove({id: 'create:crushing/obsidian'})
 })

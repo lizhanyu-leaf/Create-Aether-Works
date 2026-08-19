@@ -33,7 +33,23 @@
     "item.kubejs.compression_andesite_alloy_tier_2": "压缩安山合金 II",
     "item.kubejs.compression_andesite_alloy_tier_3": "压缩安山合金 III",
 
+    "item.kubejs.natural_essence": "自然精华",
+    "item.kubejs.blaze_essence": "烈焰精华",
+    "item.kubejs.water_essence": "水之精华",
+    "item.kubejs.slime_essence": "黏液精华",
+    "item.kubejs.smart_essence": "智能精华",
+    "item.kubejs.sturdy_essence": "坚固精华",
+    "item.kubejs.tree_essence": "树木精华",
+    "item.kubejs.precision_essence": "精密精华",
+    "item.kubejs.essence_ingot": "精华锭",
+    "item.kubejs.essence_sheet": "精华板",
+
     "tooltip.need_bee": "需要：",
     "kubejs.recipe.consume": "消耗方块",
-    "kubejs.recipe.not_consume": "不消耗方块"
+    "kubejs.recipe.not_consume": "不消耗方块",
+    "kubejs.recipe.item_entity_processing": "掉落物加工",
+    "kubejs.recipe.item_entity_smelting": "掉落物熔炼",
+    "kubejs.recipe.block_drops": "方块钻取",
+    "kubejs.recipe.comb_block_drops": "蜜脾块钻取",
+    "kubejs.recipe.block_deploying": "方块装配"
 }

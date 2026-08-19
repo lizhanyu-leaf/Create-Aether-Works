@@ -287,7 +287,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["18BB3EDF0861F2B7"]
@@ -370,6 +370,25 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "28717B551B6E88D1"
+			rewards: [{
+				command: "/attribute @s neoforge:creative_flight base set 1"
+				icon: {
+					id: "minecraft:feather"
+				}
+				id: "5DA2E1B10DA0F023"
+				type: "command"
+			}]
+			tasks: [{
+				count: 128L
+				id: "0002F8F616B95438"
+				item: { count: 1, id: "minecraft:feather" }
+				type: "item"
+			}]
+			x: 3.0d
 			y: -1.5d
 		}
 	]

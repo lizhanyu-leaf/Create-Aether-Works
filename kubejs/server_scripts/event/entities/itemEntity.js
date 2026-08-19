@@ -213,6 +213,11 @@ ServerEvents.recipes(event => {
             global.recipes.itemEntityProcessing.smelting.result[itemId] =
                 {id: result.id, count: 1, chance: 0.9}
             global.recipes.itemEntityProcessing.smelting.tool[itemId] = Ingredient.of('minecraft:flint')
+
+            event.recipes.create.deploying(
+                result,
+                [input, 'minecraft:flint']
+            )
         }
     })
 })
