@@ -17,6 +17,7 @@ downloads/*
 screenshots/*
 xaero/*
 /XaeroWaypoints*/
+PCL/*
 
 kubejs/config/*
 kubejs/jsconfig.json
