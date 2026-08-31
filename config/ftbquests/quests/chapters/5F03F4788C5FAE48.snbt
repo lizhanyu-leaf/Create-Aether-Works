@@ -15,7 +15,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 2.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			height: 1.5d
@@ -24,7 +24,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 4.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			height: 1.5d
@@ -33,7 +33,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 0.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			height: 1.5d
@@ -42,7 +42,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 6.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			height: 1.5d
@@ -51,7 +51,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 2.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			height: 1.5d
@@ -60,7 +60,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 4.0d
-			y: -6.0d
+			y: -4.5d
 		}
 	]
 	order_index: 0
@@ -119,7 +119,7 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["34FDE69356BB9F78"]
@@ -156,8 +156,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 0.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["23F7099BF47D544F"]
@@ -176,7 +176,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5AEB55DE98D466F2"]
@@ -198,8 +198,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 0.0d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6B26EA5FE9B73299"]
@@ -228,9 +228,12 @@
 				}
 			]
 			x: 6.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
 			id: "5CE4ADEB507EA675"
 			rewards: [
 				{
@@ -272,8 +275,8 @@
 				id: "415F07536C12D47E"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			hide_dependent_lines: true
@@ -292,7 +295,7 @@
 				item: { count: 1, id: "minecraft:dirt" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -304,7 +307,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["18BB3EDF0861F2B7"]
@@ -315,7 +318,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["18BB3EDF0861F2B7"]
@@ -326,7 +329,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["18BB3EDF0861F2B7"]
@@ -337,7 +340,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["18BB3EDF0861F2B7"]
@@ -348,7 +351,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["18BB3EDF0861F2B7"]
@@ -359,9 +362,12 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
+			icon: {
+				id: "minecraft:dirt"
+			}
 			id: "5D8E01A6FAB31B2A"
 			rewards: [{
 				id: "709D6A85964AF836"
@@ -375,8 +381,8 @@
 				id: "0634DC628E73886E"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -396,8 +402,8 @@
 				item: { count: 1, id: "minecraft:feather" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 4.0d
+			y: -2.5d
 		}
 	]
 }
