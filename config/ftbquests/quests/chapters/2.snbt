@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "2"
-	group: ""
+	group: "0F6E9688F8B17385"
 	icon: {
 		id: "createaddition:electric_motor"
 	}
@@ -10,6 +10,7 @@
 	images: [
 		{
 			height: 1.15d
+			id: "31455AD7C975B4FB"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -18,6 +19,7 @@
 		}
 		{
 			height: 1.15d
+			id: "3EC9DDF46A949733"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -26,6 +28,7 @@
 		}
 		{
 			height: 1.15d
+			id: "4042F80535F96CBA"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -34,6 +37,7 @@
 		}
 		{
 			height: 1.15d
+			id: "2E563904F522D92A"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -42,6 +46,7 @@
 		}
 		{
 			height: 1.15d
+			id: "6B10555EC4A7EB41"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -50,6 +55,7 @@
 		}
 		{
 			height: 1.15d
+			id: "72AE048462E82268"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -58,6 +64,7 @@
 		}
 		{
 			height: 1.15d
+			id: "2167CAE56445C8EC"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -66,6 +73,7 @@
 		}
 		{
 			height: 1.15d
+			id: "4030EF62BF8C00ED"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -74,6 +82,7 @@
 		}
 		{
 			height: 1.15d
+			id: "4D5FC44BA8872BAF"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -82,6 +91,7 @@
 		}
 		{
 			height: 1.15d
+			id: "56B6ED64C1765CCD"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -90,6 +100,7 @@
 		}
 		{
 			height: 1.15d
+			id: "0661BFCEA2EA72B4"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -98,6 +109,7 @@
 		}
 		{
 			height: 1.15d
+			id: "276095B1861E4EC4"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -106,6 +118,7 @@
 		}
 		{
 			height: 1.15d
+			id: "3554A6229F4B13BF"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -114,6 +127,7 @@
 		}
 		{
 			height: 1.15d
+			id: "33068D56D4A41E8B"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -122,6 +136,7 @@
 		}
 		{
 			height: 1.15d
+			id: "2CCFED3C7D93538E"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -130,6 +145,7 @@
 		}
 		{
 			height: 1.15d
+			id: "55D53CAA741FE9F9"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -138,6 +154,7 @@
 		}
 		{
 			height: 1.15d
+			id: "161DBD7BDB956D58"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -146,6 +163,7 @@
 		}
 		{
 			height: 1.15d
+			id: "00E18BB1955F5C16"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -154,6 +172,7 @@
 		}
 		{
 			height: 1.15d
+			id: "6D436B78FC74D805"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -162,6 +181,7 @@
 		}
 		{
 			height: 1.15d
+			id: "30735A4060541668"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -170,6 +190,7 @@
 		}
 		{
 			height: 1.15d
+			id: "379BB868DC14E867"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -178,6 +199,7 @@
 		}
 		{
 			height: 1.15d
+			id: "654569FF62C2F05C"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -186,6 +208,7 @@
 		}
 		{
 			height: 1.15d
+			id: "42E7FF1D72690116"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -194,6 +217,7 @@
 		}
 		{
 			height: 1.15d
+			id: "0C9DC643EE42145C"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -202,6 +226,7 @@
 		}
 		{
 			height: 1.15d
+			id: "3636C3CA76CBDE35"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -210,6 +235,7 @@
 		}
 		{
 			height: 1.15d
+			id: "03B9F5779061B2B1"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -218,6 +244,7 @@
 		}
 		{
 			height: 1.15d
+			id: "7EE3A5ACF2D277FE"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -226,6 +253,7 @@
 		}
 		{
 			height: 1.15d
+			id: "34CD1A2D88D4373B"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -234,6 +262,7 @@
 		}
 		{
 			height: 1.15d
+			id: "4F4D977464661492"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -242,6 +271,7 @@
 		}
 		{
 			height: 1.15d
+			id: "37DC73A30D8F0DE5"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -250,6 +280,7 @@
 		}
 		{
 			height: 1.15d
+			id: "43E88FC87E1D2411"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -258,6 +289,7 @@
 		}
 		{
 			height: 1.15d
+			id: "2E4A417650F68273"
 			image: "minecraft:block/moss_block"
 			rotation: 0.0d
 			width: 1.15d
@@ -266,6 +298,7 @@
 		}
 		{
 			height: 1.5d
+			id: "0147B589EC4BA7B4"
 			image: "minecraft:block/chiseled_copper"
 			rotation: 0.0d
 			width: 1.5d
@@ -274,6 +307,7 @@
 		}
 		{
 			height: 1.5d
+			id: "0C77761384A98D6B"
 			image: "createaddition:block/modular_accumulator/block"
 			rotation: 0.0d
 			width: 1.5d
@@ -281,7 +315,7 @@
 			y: -3.5d
 		}
 	]
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -511,7 +545,7 @@
 			id: "0159D1101EFFBFAF"
 			tasks: [{
 				id: "177CDF0139BA62D1"
-				item: { count: 1, id: "fluidlogistics:copper_frogport" }
+				item: { components: { "ftbquests:missing_item": "fluidlogistics:copper_frogport" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.0d

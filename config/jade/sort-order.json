@@ -1,4 +1,7 @@
 {
+  "avaritia:compressor": null,
+  "avaritia:crafting_table": null,
+  "avaritia:extreme_smithing": null,
   "balm:jade": null,
   "create_item_drawers:main": null,
   "fluidlogistics:connected_fluid_source": null,
@@ -22,8 +25,6 @@
   "jade_access:entity_variant": null,
   "jade_access:held_item": null,
   "jade_access:sign": null,
-  "mbd2:multiblock_provider": null,
-  "mbd2:recipe_logic_provider": null,
   "minecraft:animal_owner": null,
   "minecraft:armor_stand": null,
   "minecraft:beehive": null,
@@ -69,11 +70,7 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
-  "mysticalagriculture:crop": null,
-  "mysticalagriculture:inferium_crop": null,
-  "mysticalagriculture:infused_farmland": null,
   "productivebees:bee": null,
   "productivebees:canvas_beehive": null,
-  "productivebees:jar": null,
   "productivebees:solitary_nest": null
 }

@@ -7,7 +7,8 @@
 		id: "minecraft:bee_nest"
 	}
 	id: "54883D8FAE2B0927"
-	order_index: 0
+	images: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -92,7 +93,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0CD4E83C28DF6168"]
 			id: "06157F589BB93DE2"
 			rewards: [{
 				id: "1DAD58C8FD281332"
@@ -110,7 +110,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 4196L
+				count: 4096L
 				id: "26A0D10B771E65BB"
 				item: { count: 1, id: "minecraft:oak_log" }
 				type: "item"
@@ -119,7 +119,6 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["0CD4E83C28DF6168"]
 			id: "7B9272BA6D435710"
 			rewards: [{
 				id: "0694188FC877DC70"
@@ -137,7 +136,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 4196L
+				count: 4096L
 				id: "1CA7F36A9BCB3BD6"
 				item: { count: 1, id: "minecraft:stone" }
 				type: "item"
@@ -147,7 +146,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0CD4E83C28DF6168"]
 			id: "3273475FBFF3C99E"
 			rewards: [{
 				id: "6ECB5A755B409045"
@@ -175,7 +173,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0CD4E83C28DF6168"]
 			id: "7D0B9D374A0B86AD"
 			rewards: [{
 				id: "275906E687FE1D7B"
@@ -203,7 +200,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0CD4E83C28DF6168"]
 			id: "0DBC6021AB638123"
 			rewards: [{
 				id: "534DE587EB469552"
@@ -231,7 +227,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0CD4E83C28DF6168"]
 			id: "5665D2615B5B16AE"
 			rewards: [{
 				id: "69BEF597C4FE7245"
@@ -259,7 +254,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0CD4E83C28DF6168"]
 			id: "68BE9DB369A7C377"
 			rewards: [{
 				id: "1CD2DF38A58DD6AA"
@@ -287,7 +281,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0CD4E83C28DF6168"]
 			id: "59D417B05688FEFD"
 			rewards: [{
 				id: "06F92BD2FCC3CFDA"

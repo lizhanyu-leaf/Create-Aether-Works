@@ -200,6 +200,7 @@ minecraft:weeping_vines
 productivebees:acacia_wood_nest
 productivebees:birch_wood_nest
 productivebees:bumble_bee_nest
+productivebees:cherry_wood_nest
 productivebees:coarse_dirt_nest
 productivebees:crimson_fungus_bees
 productivebees:crimson_fungus_bees_grown
@@ -208,6 +209,7 @@ productivebees:end_nest
 productivebees:glowstone_nest
 productivebees:gravel_nest
 productivebees:jungle_wood_nest
+productivebees:mangrove_wood_nest
 productivebees:nether_fortress_nest
 productivebees:nether_quartz_nest
 productivebees:nether_quartz_nest_high

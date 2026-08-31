@@ -7,7 +7,8 @@
 		id: "kubejs:basic_mechine_set"
 	}
 	id: "09D8B51B5B3F549B"
-	order_index: 1
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

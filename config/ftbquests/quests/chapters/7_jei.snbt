@@ -4,7 +4,8 @@
 	filename: "7_jei"
 	group: "7E0DD3B1F18F3952"
 	id: "124BC02D19C7CA54"
-	order_index: 1
+	images: [ ]
+	order_index: 2
 	quest_links: [ ]
 	quests: [ ]
 }

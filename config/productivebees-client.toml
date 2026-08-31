@@ -7,5 +7,9 @@
 	mutedBeeNestHelmet = false
 	#Bees wear santa hats.
 	alwaysChristmas = false
+	#Bees never wear santa hats.
+	neverChristmas = false
+	#Enable april fools jokes
+	enableJokes = true
 	#Render entities inside amber blocks.
 	renderEntitiesInAmber = true

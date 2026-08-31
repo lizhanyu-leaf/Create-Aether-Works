@@ -4,7 +4,8 @@
 	filename: "8"
 	group: "7E0DD3B1F18F3952"
 	id: "58299B24A56BCBB9"
-	order_index: 2
+	images: [ ]
+	order_index: 3
 	quest_links: [ ]
 	quests: [ ]
 }

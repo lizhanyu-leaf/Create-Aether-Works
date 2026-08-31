@@ -59,6 +59,11 @@
     "entity": true,
     "entity_variant": true
   },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
+  },
   "ftbquests": {
     "barrier": true
   },
@@ -84,7 +89,6 @@
   "productivebees": {
     "bee": true,
     "solitary_nest": true,
-    "jar": true,
     "canvas_beehive": true,
     "bee_attributes": true
   }

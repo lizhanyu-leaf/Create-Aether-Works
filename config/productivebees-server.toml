@@ -47,8 +47,6 @@
 	# Default: 2
 	# Range: > 1
 	generatorHoneyUse = 2
-	#A priority list of Mod IDs that results of comb output should stem from, aka which mod you want the copper to come from.
-	preferredTagSource = ["minecraft", "productivebees", "alltheores", "ato", "thermal", "tconstruct", "create", "immersiveengineering", "mekanism", "enderio", "silents_mechanisms"]
 	#How many bees can fit in a bee bomb. Default is 10
 	# Default: 10
 	# Range: 1 ~ 50
@@ -63,12 +61,26 @@
 	nestSpawnCooldown = 24000
 	#Centrifuges will pick up items thrown on it
 	centrifugeHopperMode = true
+	#Centrifuges will output fluid to any adjacent fluid containers including other centrifuges
+	centrifugeFluidSharing = true
 	#Enable this if you have a right click harvest handler but none of the following mods: right_click_get_crops, croptopia, quark, harvest, simplefarming, reap
 	forceEnableFarmerBeeRightClickHarvest = false
+	#Enable april fools jokes
+	enableJokes = true
+	#Chance for MI quantum armor to not be effective against BeeBee.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	quantumArmorFailureChance = 0.1
+	#Percentage of the total durability the BeeBee will leave remaining on each piece of armor after dealing damage. Below 50% the armor will always break if not disabled. -1 to disable completely
+	# Default: 5
+	# Range: -1 ~ 100
+	beeBeeArmorDurabilityPercentageRemainder = 5
 
 [Bees]
-	#Allow for bee simulation in hives. This will stop bees from exiting the hive and instead simulate a trip to flower blocks saving on performance.
+	#Allow for bee simulation in hives using simulation upgrades. This will stop bees from exiting the hive and instead simulate a trip to flower blocks saving on performance.
 	allowBeeSimulation = true
+	#Force bee simulation in hives.
+	forceBeeSimulation = false
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
 	spawnUndeadBeesChance = 0.05
@@ -98,12 +110,14 @@
 	disableWanderGoal = false
 	#Allow resin bees to encase mobs in amber. With this disabled it's only possible with an amber bee and it's also not as fun.
 	enableResinBeeEncasing = true
+	#Setting this to false will completely disable bee breeding. This overwrites any bee breeding recipes and selfbreed settings in the bee files.
+	allowBeeBreeding = true
 
 ["Bee attributes"]
-	#Number of ticks between effects on nearby entities
-	# Default: 2337
+	#Number of ticks between attribute improvement attempts while leashed
+	# Default: 1337
 	# Range: > 20
-	ticks = 2337
+	ticks = 1337
 	#Chance that a bee will take damage while leashed in a hostile environment
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
@@ -124,6 +138,10 @@
 	# Default: 33
 	# Range: 1 ~ 100
 	typeGenePurity = 33
+	#Number of ticks between effects on nearby entities
+	# Default: 2337
+	# Range: > 20
+	effectTicks = 2337
 
 [Worldgen]
 	#Probability for a nest to generate in the world given it's conditions. Nest will still be craftable and attract bees when placed in the world.
@@ -187,6 +205,12 @@
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
 	acacia_wood_nest = 0.05
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	cherry_wood_nest = 0.05
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	mangrove_wood_nest = 0.05
 	# Default: 0.02
 	# Range: 0.0 ~ 1.0
 	nether_bee_nest = 0.02
@@ -200,9 +224,9 @@
 
 ["Hive Upgrades"]
 	#Time bonus gained from time upgrade. 0.2 means 20% reduction of a bee's time inside the hive or centrifuge processing time.
-	# Default: 0.2
+	# Default: 0.15
 	# Range: 0.0 ~ 1.0
-	timeBonus = 0.2
+	timeBonus = 0.15
 	#Multiplier per productivity alpha upgrade installed in the hive.
 	# Default: 1.2
 	# Range: 1.0 ~ 2.147483647E9
@@ -231,3 +255,7 @@
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
 	samplerChance = 0.05
+	#Chance increase for centrifuge output that is not guaranteed.
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	stabilityChanceIncrease = 0.15
