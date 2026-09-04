@@ -61,6 +61,16 @@ function registerBlockDrops() {
     addBlockDrop('minecraft:obsidian', [
         { id: 'create:powdered_obsidian', chance: 0.35, count: 1 }
     ], 1.0, false)
+
+    addBlockDrop('kubejs:fake_bedrock', [
+        { id: 'kubejs:bedrock_powder', chance: 0.05, count: 1 }
+    ], 1.0, false);
+
+    addBlockDrop('minecraft:lapis_block', [
+        { id: 'minecraft:lapis_lazuli', chance: 1, count: 9 },
+        { id: 'minecraft:lapis_lazuli', chance: 0.5, count: 2 },
+        { id: 'minecraft:lapis_lazuli', chance: 0.25, count: 4 },
+    ], 1.0, true)
 }
 
 registerBlockDrops();

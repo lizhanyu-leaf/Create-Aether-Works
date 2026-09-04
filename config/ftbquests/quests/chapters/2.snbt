@@ -225,78 +225,6 @@
 			y: -5.0d
 		}
 		{
-			height: 1.15d
-			id: "3636C3CA76CBDE35"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.15d
-			x: 6.0d
-			y: -6.0d
-		}
-		{
-			height: 1.15d
-			id: "03B9F5779061B2B1"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.15d
-			x: 7.0d
-			y: -6.0d
-		}
-		{
-			height: 1.15d
-			id: "7EE3A5ACF2D277FE"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.15d
-			x: 8.0d
-			y: -6.0d
-		}
-		{
-			height: 1.15d
-			id: "34CD1A2D88D4373B"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.15d
-			x: 9.0d
-			y: -6.0d
-		}
-		{
-			height: 1.15d
-			id: "4F4D977464661492"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.15d
-			x: 9.0d
-			y: -7.0d
-		}
-		{
-			height: 1.15d
-			id: "37DC73A30D8F0DE5"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.15d
-			x: 8.0d
-			y: -7.0d
-		}
-		{
-			height: 1.15d
-			id: "43E88FC87E1D2411"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.15d
-			x: 7.0d
-			y: -7.0d
-		}
-		{
-			height: 1.15d
-			id: "2E4A417650F68273"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.15d
-			x: 6.0d
-			y: -7.0d
-		}
-		{
 			height: 1.5d
 			id: "0147B589EC4BA7B4"
 			image: "minecraft:block/chiseled_copper"
@@ -316,6 +244,8 @@
 		}
 	]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -541,17 +471,6 @@
 			y: -11.5d
 		}
 		{
-			dependencies: ["116B968ED36DEFAA"]
-			id: "0159D1101EFFBFAF"
-			tasks: [{
-				id: "177CDF0139BA62D1"
-				item: { components: { "ftbquests:missing_item": "fluidlogistics:copper_frogport" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -13.5d
-		}
-		{
 			dependencies: ["78A7424A0870D357"]
 			id: "18489BD8490132C1"
 			tasks: [{
@@ -637,20 +556,6 @@
 			}]
 			x: 8.5d
 			y: -4.5d
-		}
-		{
-			dependencies: [
-				"3EEF0A80FA1A2A34"
-				"2E899F743E47D5AA"
-			]
-			id: "24148D9BC04D2B5D"
-			tasks: [{
-				id: "3C39524D5F565FA1"
-				item: { count: 1, id: "minecraft:cornflower" }
-				type: "item"
-			}]
-			x: 8.5d
-			y: -6.5d
 		}
 		{
 			id: "580E039D80ABB419"
@@ -941,6 +846,17 @@
 			}]
 			x: 4.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["116B968ED36DEFAA"]
+			id: "2638ECEAF2E8A2AF"
+			tasks: [{
+				id: "34BFEFC0E09926F4"
+				item: { count: 1, id: "fluidlogistics:copper_frogport" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.5d
 		}
 	]
 }

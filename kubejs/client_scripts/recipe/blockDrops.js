@@ -3,7 +3,6 @@ let $OverlayTexture = Java.loadClass("net.minecraft.client.renderer.texture.Over
 
 let $ModelResourceLocation = Java.loadClass("net.minecraft.client.resources.model.ModelResourceLocation")
 let $RenderType = Java.loadClass("net.minecraft.client.renderer.RenderType")
-let $ProcessingOutput = Java.loadClass('com.simibubi.create.content.processing.recipe.ProcessingOutput')
 let $DoubleItemIcon = Java.loadClass('com.simibubi.create.compat.jei.DoubleItemIcon')
 let $AllGuiTextures = Java.loadClass('com.simibubi.create.foundation.gui.AllGuiTextures')
 let $AnimatedKinetics = Java.loadClass('com.simibubi.create.compat.jei.category.animations.AnimatedKinetics')
@@ -26,11 +25,17 @@ function getBlockDropRecipes() {
         let drops = []
 
         for (let data of config.drops) {
-            drops.push(new $ProcessingOutput(Item.of(data.id, data.count), data.chance))
+            try {
+                drops.push(CreateItem.of(Item.of(data.id, data.count), data.chance))
+            } catch {
+
+            }
         }
+
+        // if (blockId.id === 'kubejs:fake_bedrock') blockId.id = 'minecraft:bedrock'
         
         recipes.push({
-            block: Item.of(blockId),
+            block: Item.of(blockId == 'kubejs:fake_bedrock' ? 'minecraft:bedrock' : blockId),
             outputs: drops,
             baseChance: baseChance,
             consume: consume
@@ -50,7 +55,7 @@ function getCombBlockDropRecipes() {
         let drops = []
 
         for (let data of config.drops) {
-            drops.push(new $ProcessingOutput(Item.of(data.id, data.count), data.chance))
+            drops.push(CreateItem.of(Item.of(data.id, data.count), data.chance))
         }
         
         recipes.push({

@@ -7,68 +7,15 @@
 		id: "minecraft:grass_block"
 	}
 	id: "5F03F4788C5FAE48"
-	images: [
-		{
-			height: 1.5d
-			id: "4C20AE61C162AA80"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.5d
-			x: 2.0d
-			y: -6.0d
-		}
-		{
-			height: 1.5d
-			id: "7512B3578B9777A0"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.5d
-			x: 4.0d
-			y: -6.0d
-		}
-		{
-			height: 1.5d
-			id: "52BA2C4AFC5EDC4F"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.5d
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			height: 1.5d
-			id: "73CA011A7CC8A442"
-			image: "minecraft:block/moss_block"
-			rotation: 0.0d
-			width: 1.5d
-			x: 6.0d
-			y: -6.0d
-		}
-		{
-			height: 1.5d
-			id: "7D12EA9D2635C14F"
-			image: "minecraft:block/dripstone_block"
-			rotation: 0.0d
-			width: 1.5d
-			x: 2.0d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			id: "29F87EBB9A68C771"
-			image: "minecraft:block/dripstone_block"
-			rotation: 0.0d
-			width: 1.5d
-			x: 4.0d
-			y: -4.5d
-		}
-	]
+	images: [ ]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
 			icon: {
-				id: "minecraft:oak_sapling"
+				id: "minecraft:grass_block"
 			}
 			id: "34FDE69356BB9F78"
 			rewards: [
@@ -101,15 +48,24 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "68B0FFB47B8A669F"
+					id: "0CF6E56B875B5ADA"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+						id: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+					}
+					type: "item"
+				}
+				{
+					id: "1AE6BF7A8D065353"
+					item: {
+						count: 1
+						id: "torchmaster:megatorch"
 					}
 					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 3.0d
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: {
@@ -118,8 +74,8 @@
 				id: "6F34E700628FE83F"
 				type: "dimension"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["34FDE69356BB9F78"]
@@ -156,8 +112,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -1.0d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["23F7099BF47D544F"]
@@ -176,7 +132,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5AEB55DE98D466F2"]
@@ -198,8 +154,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -1.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6B26EA5FE9B73299"]
@@ -227,10 +183,11 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -2.5d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
+			dependencies: ["34FDE69356BB9F78"]
 			icon: {
 				id: "minecraft:totem_of_undying"
 			}
@@ -275,96 +232,11 @@
 				id: "415F07536C12D47E"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			hide_dependent_lines: true
-			id: "18BB3EDF0861F2B7"
-			rewards: [{
-				count: 32
-				id: "05D409531EA0F53D"
-				item: {
-					count: 1
-					id: "minecraft:dirt"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2DBB5D34F5B8B265"
-				item: { count: 1, id: "minecraft:dirt" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["18BB3EDF0861F2B7"]
-			id: "7F610142C7B9772D"
-			tasks: [{
-				id: "0B88B5501D631887"
-				item: { count: 1, id: "minecraft:kelp" }
-				type: "item"
-			}]
-			x: 4.0d
+			x: -0.5d
 			y: -6.0d
 		}
 		{
-			dependencies: ["18BB3EDF0861F2B7"]
-			id: "2A202B202900BFA7"
-			tasks: [{
-				id: "0D60A77E241D4696"
-				item: { count: 1, id: "minecraft:moss_block" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["18BB3EDF0861F2B7"]
-			id: "4F4C7274C658EF43"
-			tasks: [{
-				id: "4A173E1E2313B902"
-				item: { count: 1, id: "minecraft:bamboo" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["18BB3EDF0861F2B7"]
-			id: "20783A7FA4955339"
-			tasks: [{
-				id: "44493469BFE47EA8"
-				item: { count: 1, id: "minecraft:sugar_cane" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["18BB3EDF0861F2B7"]
-			id: "7FD8DF58DA5ED71C"
-			tasks: [{
-				id: "5922ABB047F8860E"
-				item: { count: 1, id: "minecraft:pointed_dripstone" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["18BB3EDF0861F2B7"]
-			id: "29F5282E36DD63F5"
-			tasks: [{
-				id: "6769ACF1D6E4E5CC"
-				item: { count: 1, id: "minecraft:brown_mushroom" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -4.5d
-		}
-		{
+			dependencies: ["34FDE69356BB9F78"]
 			icon: {
 				id: "minecraft:dirt"
 			}
@@ -381,11 +253,12 @@
 				id: "0634DC628E73886E"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: -4.5d
+			x: 7.0d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
+			dependencies: ["34FDE69356BB9F78"]
 			id: "28717B551B6E88D1"
 			rewards: [{
 				command: "/attribute @s neoforge:creative_flight base set 1"
@@ -402,8 +275,8 @@
 				item: { count: 1, id: "minecraft:feather" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.5d
+			x: 3.0d
+			y: -9.5d
 		}
 	]
 }

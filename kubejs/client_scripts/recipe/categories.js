@@ -16,3 +16,9 @@ RecipeViewerEvents.removeCategories(event => {
     event.remove('createoreexcavation:extracting')
     event.remove('createoreexcavation:vein')
 })
+
+RecipeViewerEvents.removeRecipes(event => {
+    event.remove([
+        'kubejs:compaction/honeycomb_to_block_hidden'
+    ])
+})

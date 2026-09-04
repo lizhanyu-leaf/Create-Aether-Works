@@ -152,8 +152,68 @@
 			x: 7.5d
 			y: -15.5d
 		}
+		{
+			height: 1.5d
+			id: "46953D9F7AABA3F6"
+			image: "minecraft:block/dripstone_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.5d
+			y: -13.5d
+		}
+		{
+			height: 1.5d
+			id: "42F6D175081A611E"
+			image: "minecraft:block/dripstone_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.5d
+			y: -15.5d
+		}
+		{
+			height: 1.5d
+			id: "4F3B0F241416D1FD"
+			image: "minecraft:block/moss_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: -8.5d
+			y: -15.5d
+		}
+		{
+			height: 1.5d
+			id: "38A2B1A7C8F39A50"
+			image: "minecraft:block/moss_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: -8.5d
+			y: -13.5d
+		}
+		{
+			height: 1.5d
+			id: "6AA5440282AD04C1"
+			image: "minecraft:block/moss_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.5d
+			y: -15.5d
+		}
+		{
+			height: 1.5d
+			id: "646AB067C93F3C8D"
+			image: "minecraft:block/moss_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.5d
+			y: -13.5d
+		}
 	]
 	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [{
+		dependency: "q:52357e941199ac9d"
+		reveal_on_hover: 1b
+		source: "q:16429d38e04eace1"
+	}]
 	quest_links: [ ]
 	quests: [
 		{
@@ -777,7 +837,10 @@
 			y: -22.5d
 		}
 		{
-			dependencies: ["3DC83C06FB3C34A3"]
+			dependencies: [
+				"3DC83C06FB3C34A3"
+				"52357E941199AC9D"
+			]
 			id: "16429D38E04EACE1"
 			tasks: [{
 				id: "1C92EAC5F3FE4F7E"
@@ -1152,6 +1215,158 @@
 			}]
 			x: 11.0d
 			y: -19.0d
+		}
+		{
+			dependencies: ["10465DC05089FB79"]
+			id: "18568BE491FBA521"
+			tasks: [{
+				id: "51C430CCDC807C4B"
+				item: { count: 1, id: "minecraft:pointed_dripstone" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["10465DC05089FB79"]
+			id: "359569DB7F63FF10"
+			tasks: [{
+				id: "77FC13FEC2E9144E"
+				item: { count: 1, id: "minecraft:brown_mushroom" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["10465DC05089FB79"]
+			id: "6122902F654FD904"
+			tasks: [{
+				id: "7CA43EBA28336480"
+				item: { count: 1, id: "minecraft:bamboo" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["10465DC05089FB79"]
+			id: "4E5035BFE0C4BD94"
+			tasks: [{
+				id: "57219BAC344541EA"
+				item: { count: 1, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["10465DC05089FB79"]
+			id: "7DE71751876BE8D1"
+			tasks: [{
+				id: "0F5F4C525EFC6E67"
+				item: { count: 1, id: "minecraft:kelp" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["10465DC05089FB79"]
+			id: "7D2F25E0F965756C"
+			tasks: [{
+				id: "79E62109FD52179C"
+				item: { count: 1, id: "minecraft:moss_block" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -15.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "10465DC05089FB79"
+			rewards: [{
+				count: 32
+				id: "743FC089EBA26EC1"
+				item: {
+					count: 1
+					id: "minecraft:dirt"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C7C905DA8CA0AD6"
+				item: { count: 1, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["4E5035BFE0C4BD94"]
+			id: "39D778F13554F3EB"
+			tasks: [{
+				id: "69595C464F784027"
+				item: { count: 1, id: "minecraft:paper" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7DE71751876BE8D1"]
+			id: "52357E941199AC9D"
+			tasks: [{
+				id: "28F209523F875C3F"
+				item: { count: 1, id: "minecraft:dried_kelp" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["52357E941199AC9D"]
+			id: "463DB0EE1AE12164"
+			tasks: [{
+				id: "7C386ADB08840A21"
+				item: { count: 1, id: "create:andesite_tunnel" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["463DB0EE1AE12164"]
+			id: "790151911DE57540"
+			tasks: [{
+				id: "6227DFF16D9D96DA"
+				item: { count: 1, id: "create:brass_tunnel" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["52357E941199AC9D"]
+			id: "12AF814EFB90958A"
+			tasks: [{
+				id: "60C206C4A6FA40B0"
+				item: { count: 1, id: "create:andesite_funnel" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["12AF814EFB90958A"]
+			id: "50215CABB47D9EC1"
+			tasks: [{
+				id: "2A7A601C8917DA05"
+				item: { count: 1, id: "create:brass_funnel" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.5d
 		}
 	]
 }

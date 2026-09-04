@@ -1,3 +1,4 @@
 [
-  {"version":2}
+  {"version":2},
+  {"recipe":"create:kjs/productivebees_bee_cage","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"}
 ]

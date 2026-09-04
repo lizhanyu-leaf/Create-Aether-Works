@@ -6,6 +6,8 @@
 	id: "73F6F48BB04643BF"
 	images: [ ]
 	order_index: 12
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [ ]
 }

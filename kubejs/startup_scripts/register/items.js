@@ -5,6 +5,8 @@ StartupEvents.registry('item', event => {
 
     event.create('wood_set')
 
+    event.create('bedrock_powder')
+
     event.create('compression_andesite_alloy')
     event.create('compression_andesite_alloy_tier_2')
     event.create('compression_andesite_alloy_tier_3')

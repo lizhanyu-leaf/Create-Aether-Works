@@ -23,3 +23,11 @@ function addBlockDeploying(blockId, heldItem, outputs, baseChance, consume) {
 addBlockDeploying('minecraft:slime_block', 'kubejs:incomplete_super_glue', [
     {id: 'create:super_glue', count: 1, chance: 1.0}
 ], 1.0, false)
+
+addBlockDeploying('minecraft:deepslate', 'create:powdered_obsidian', [
+    {id: 'minecraft:reinforced_deepslate', count: 1, chance: 1.0}
+], 0.2, true)
+
+addBlockDeploying('minecraft:reinforced_deepslate', 'minecraft:deepslate', [
+    {id: 'minecraft:reinforced_deepslate', count: 1, chance: 1.0}
+], 0.2, false)

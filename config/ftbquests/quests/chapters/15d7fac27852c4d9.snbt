@@ -6,6 +6,30 @@
 	id: "15D7FAC27852C4D9"
 	images: [ ]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "79D2FBF02FA40E9E"
+			tasks: [{
+				id: "06553C99149D2EE5"
+				item: { count: 1, id: "minecraft:reinforced_deepslate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79D2FBF02FA40E9E"]
+			id: "7DDFA19A49D11EEB"
+			tasks: [{
+				id: "4405C689D80E8663"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
 }

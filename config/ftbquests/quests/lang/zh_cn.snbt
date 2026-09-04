@@ -42,19 +42,16 @@
 	quest.0CD4E83C28DF6168.quest_desc: ["注：非原版蜜蜂的蜜脾块只能通过冲压机压缩获得"]
 	quest.0CD4E83C28DF6168.quest_subtitle: "先试着生产一些蜜脾块"
 	quest.0DBC6021AB638123.title: "铁蜜蜂"
+	quest.10465DC05089FB79.quest_desc: ["泥土掉落物从高处下坠，接触地面时有几率额外掉落一些物品"]
 	quest.11501CCB2CD07B03.title: "锅炉?"
 	quest.14039D197C54F6DD.quest_subtitle: "应力存储1.0"
 	quest.1464171831A6DABA.quest_subtitle: "最好的短距离物流？"
+	quest.16429D38E04EACE1.quest_desc: [""]
 	quest.176131E072A189B2.quest_subtitle: "给动态结构提供旋转（？）"
-	quest.18BB3EDF0861F2B7.quest_desc: [
-		"你说你的泥土掉虚空了？不会吧。"
-		""
-		"但是你确实需要摔打一下泥土，扔出泥土并且掉落至少10格。"
-	]
-	quest.18BB3EDF0861F2B7.quest_subtitle: "掉落的泥土"
 	quest.1925372A2CD6A7CC.quest_subtitle: "🦼轮椅🦼"
 	quest.1D9E1FAB34F5BE6A.quest_subtitle: "你如果想打史莱姆，也行"
 	quest.1EE4722720E52914.quest_subtitle: "内嵌钻石锄会爆耐久的"
+	quest.217E67866A9C4D8A.quest_subtitle: "电力存储兼应力存储"
 	quest.23F7099BF47D544F.title: "获取木头"
 	quest.2756E069705B5EAB.quest_subtitle: "先记着，以后要考"
 	quest.28717B551B6E88D1.title: "创造飞行"
@@ -65,7 +62,7 @@
 	quest.32689078BC208AFE.quest_subtitle: "点击输入文字"
 	quest.3273475FBFF3C99E.title: "黏液蜜蜂"
 	quest.347D1E1F05498223.quest_subtitle: "移动注液器"
-	quest.34FDE69356BB9F78.title: "初来乍到"
+	quest.34FDE69356BB9F78.title: "降生"
 	quest.3539EA01E5D5BF48.quest_subtitle: "无限熔岩，你值得拥有"
 	quest.38BF8AF0D4BFFFD4.quest_subtitle: "没有用的"
 	quest.3A8E9439E24D4C8A.quest_subtitle: "没人不用的"

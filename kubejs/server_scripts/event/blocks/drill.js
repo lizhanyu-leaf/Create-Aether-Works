@@ -28,13 +28,8 @@ KJSCAutoEvents.blockDestroy(event => {
             let count = drop.count ?? 1;
             let itemId = drop.id;
             
-            // 如果概率命中，生成物品
-            if (Math.random() <= chance) {
-                // 支持多个数量
-                for (let i = 0; i < count; i++) {
-                    targetBlock.popItemFromFace(itemId, $Direction.UP);
-                }
-            }
+            var item = CreateItem.of(Item.of(itemId, count), chance).rollOutput(level.getRandom())
+            if (!item.isEmpty()) targetBlock.popItemFromFace(item, $Direction.UP)
         }
     }
     

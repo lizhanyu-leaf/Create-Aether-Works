@@ -3,7 +3,7 @@ global.recipes ??= {};
 global.recipes.mobileBeehive ??= {};
 global.recipes.combBlockDrops ??= {};
 
-// ========== 添加配方 ==========
+// ========== 添加钻头配方 ==========
 function addCombBlockDrop(blockType, drops, baseChance, consume) {
     global.recipes.combBlockDrops[blockType] = {
         drops: drops,
@@ -12,7 +12,7 @@ function addCombBlockDrop(blockType, drops, baseChance, consume) {
     };
 }
 
-// ========== 添加配方 ==========
+// ========== 添加蜜蜂和花朵 ==========
 function addMobileBeehive(flower, beeId, chance) {
     console.log("机械养蜂配方添加到 global : " + beeId)
     global.recipes.mobileBeehive[beeId] = {

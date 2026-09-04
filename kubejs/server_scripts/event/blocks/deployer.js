@@ -104,7 +104,7 @@ BlockEvents.rightClicked(event => {
         let recipe = global.recipes.blockDeploying?.[block.id]
         if (recipe == null) return
 
-        if (!item.is(recipe.heldItem)) return
+        if (!item["is(net.minecraft.world.item.Item)"](recipe.heldItem)) return
         item.consume(1, null)
         if (Math.random() > recipe.baseChance) {
             if (recipe.consume) level.destroyBlock(block.pos, false)

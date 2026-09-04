@@ -9,6 +9,8 @@
 	id: "54883D8FAE2B0927"
 	images: [ ]
 	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -69,7 +71,7 @@
 			y: -1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["066DC44DF0B37D25"]
 			hide_dependent_lines: true
 			id: "0CD4E83C28DF6168"
@@ -106,6 +108,7 @@
 					count: 1
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -132,6 +135,7 @@
 					count: 1
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -159,6 +163,7 @@
 					count: 1
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -186,6 +191,7 @@
 					count: 1
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -213,6 +219,7 @@
 					count: 1
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -240,6 +247,7 @@
 					count: 1
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -267,6 +275,7 @@
 					count: 1
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -294,6 +303,7 @@
 					count: 1
 					id: "productivebees:spawn_egg_configurable_bee"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
