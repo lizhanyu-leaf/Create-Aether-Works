@@ -1,4 +1,10 @@
 [
   {"version":2},
-  {"recipe":"create:kjs/productivebees_bee_cage","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"}
+  {"ingredient":{"id":"kubejs:stone_set"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:natural_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:slime_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:sturdy_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:smart_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:precision_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:blaze_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

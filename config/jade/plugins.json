@@ -59,6 +59,13 @@
     "entity": true,
     "entity_variant": true
   },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
   "avaritia": {
     "extreme_smithing": true,
     "crafting_table": true,
@@ -66,6 +73,9 @@
   },
   "ftbquests": {
     "barrier": true
+  },
+  "fluidlogistics": {
+    "blaze_cooler_icon": true
   },
   "create_item_drawers": {
     "display.upgrade": true,

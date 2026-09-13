@@ -53,10 +53,6 @@ function registerBlockDrops() {
         {id: 'minecraft:iron_nugget', count: 1, chance: 0.25},
         {id: 'create:copper_nugget', count: 1, chance: 0.1}
     ], 0.75, false)
-
-    addBlockDrop('minecraft:moss_block', [
-        { id: 'kubejs:natural_essence', chance: 0.2, count: 1 }
-    ], 0.1, true)
     
     addBlockDrop('minecraft:obsidian', [
         { id: 'create:powdered_obsidian', chance: 0.35, count: 1 }

@@ -208,12 +208,6 @@
 		}
 	]
 	order_index: 1
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [{
-		dependency: "q:52357e941199ac9d"
-		reveal_on_hover: 1b
-		source: "q:16429d38e04eace1"
-	}]
 	quest_links: [ ]
 	quests: [
 		{
@@ -837,10 +831,7 @@
 			y: -22.5d
 		}
 		{
-			dependencies: [
-				"3DC83C06FB3C34A3"
-				"52357E941199AC9D"
-			]
+			dependencies: ["3DC83C06FB3C34A3"]
 			id: "16429D38E04EACE1"
 			tasks: [{
 				id: "1C92EAC5F3FE4F7E"

@@ -31,91 +31,54 @@ addMobileBeehive('minecraft:stone', 'productivebees:stone', 1.0)
 addMobileBeehive('minecraft:slime_block', 'productivebees:slimy', 1.0)
 addMobileBeehive('minecraft:blaze_powder', 'productivebees:blazing', 1.0)
 addMobileBeehive('#minecraft:flowers', 'minecraft:bee', 1.0)
+addMobileBeehive('create:andesite_alloy_block', 'productivebees:andesite_alloy', 1.0)
 
 addCombBlockDrop('productivebees:brass', [
     { id: 'create:brass_ingot', count: 2, chance: 1.0 },
-    { id: 'create:brass_ingot', count: 1, chance: 0.2 },
-    { id: 'create:brass_ingot', count: 1, chance: 0.2 },
-    { id: 'create:brass_nugget', count: 1, chance: 0.5 },
-    { id: 'create:brass_nugget', count: 1, chance: 0.5 },
-    { id: 'create:brass_nugget', count: 1, chance: 0.5 },
-    { id: 'create:brass_nugget', count: 1, chance: 0.5 },
-    { id: 'create:brass_nugget', count: 1, chance: 0.5 },
-    { id: 'create:brass_nugget', count: 1, chance: 0.5 },
+    { id: 'create:brass_ingot', count: 2, chance: 0.2 },
+    { id: 'create:brass_nugget', count: 6, chance: 0.5 }
+], 1.0, true)
+addCombBlockDrop('productivebees:andesite_alloy', [
+    { id: 'create:andesite_alloy', count: 3, chance: 1.0 },
+    { id: 'create:andesite_alloy', count: 8, chance: 0.2 }
 ], 1.0, true)
 addCombBlockDrop('productivebees:zinc', [
     { id: 'create:zinc_ingot', count: 2, chance: 1.0 },
-    { id: 'create:zinc_ingot', count: 1, chance: 0.2 },
-    { id: 'create:zinc_ingot', count: 1, chance: 0.2 },
-    { id: 'create:zinc_nugget', count: 1, chance: 0.5 },
-    { id: 'create:zinc_nugget', count: 1, chance: 0.5 },
-    { id: 'create:zinc_nugget', count: 1, chance: 0.5 },
-    { id: 'create:zinc_nugget', count: 1, chance: 0.5 },
-    { id: 'create:zinc_nugget', count: 1, chance: 0.5 },
-    { id: 'create:zinc_nugget', count: 1, chance: 0.5 },
+    { id: 'create:zinc_ingot', count: 2, chance: 0.2 },
+    { id: 'create:zinc_nugget', count: 6, chance: 0.5 },
 ], 1.0, true)
 addCombBlockDrop('productivebees:iron', [
     { id: 'minecraft:iron_ingot', count: 2, chance: 1.0 },
-    { id: 'minecraft:iron_ingot', count: 1, chance: 0.2 },
-    { id: 'minecraft:iron_ingot', count: 1, chance: 0.2 },
-    { id: 'minecraft:iron_nugget', count: 1, chance: 0.5 },
-    { id: 'minecraft:iron_nugget', count: 1, chance: 0.5 },
-    { id: 'minecraft:iron_nugget', count: 1, chance: 0.5 },
-    { id: 'minecraft:iron_nugget', count: 1, chance: 0.5 },
-    { id: 'minecraft:iron_nugget', count: 1, chance: 0.5 },
-    { id: 'minecraft:iron_nugget', count: 1, chance: 0.5 },
+    { id: 'minecraft:iron_ingot', count: 2, chance: 0.2 },
+    { id: 'minecraft:iron_nugget', count: 6, chance: 0.5 },
 ], 1.0, true)
 addCombBlockDrop('productivebees:gold', [
     { id: 'minecraft:gold_ingot', count: 2, chance: 1.0 },
-    { id: 'minecraft:gold_ingot', count: 1, chance: 0.2 },
-    { id: 'minecraft:gold_ingot', count: 1, chance: 0.2 },
-    { id: 'minecraft:gold_nugget', count: 1, chance: 0.5 },
-    { id: 'minecraft:gold_nugget', count: 1, chance: 0.5 },
-    { id: 'minecraft:gold_nugget', count: 1, chance: 0.5 },
-    { id: 'minecraft:gold_nugget', count: 1, chance: 0.5 },
-    { id: 'minecraft:gold_nugget', count: 1, chance: 0.5 },
-    { id: 'minecraft:gold_nugget', count: 1, chance: 0.5 },
+    { id: 'minecraft:gold_ingot', count: 2, chance: 0.2 },
+    { id: 'minecraft:gold_nugget', count: 6, chance: 0.5 },
 ], 1.0, true)
 addCombBlockDrop('productivebees:copper', [
     { id: 'minecraft:copper_ingot', count: 2, chance: 1.0 },
-    { id: 'minecraft:copper_ingot', count: 1, chance: 0.2 },
-    { id: 'minecraft:copper_ingot', count: 1, chance: 0.2 },
-    { id: 'create:copper_nugget', count: 1, chance: 0.5 },
-    { id: 'create:copper_nugget', count: 1, chance: 0.5 },
-    { id: 'create:copper_nugget', count: 1, chance: 0.5 },
-    { id: 'create:copper_nugget', count: 1, chance: 0.5 },
-    { id: 'create:copper_nugget', count: 1, chance: 0.5 },
-    { id: 'create:copper_nugget', count: 1, chance: 0.5 },
+    { id: 'minecraft:copper_ingot', count: 2, chance: 0.2 },
+    { id: 'create:copper_nugget', count: 6, chance: 0.5 },
 ], 1.0, true)
 addCombBlockDrop('productivebees:oak_log', [
     { id: 'minecraft:oak_log', count: 3, chance: 1.0 },
-    { id: 'minecraft:stripped_oak_log', count: 2, chance: 0.2 },
-    { id: 'minecraft:oak_log', count: 2, chance: 0.2 },
-    { id: 'minecraft:oak_log', count: 1, chance: 0.2 },
-    { id: 'minecraft:stripped_oak_log', count: 1, chance: 0.1 },
-    { id: 'minecraft:stripped_oak_log', count: 1, chance: 0.1 }
+    { id: 'minecraft:oak_log', count: 3, chance: 0.2 },
+    { id: 'minecraft:stripped_oak_log', count: 5, chance: 0.1 }
 ], 1.0, true)
 addCombBlockDrop('productivebees:stone', [
     { id: 'minecraft:stone', count: 3, chance: 1.0 },
-    { id: 'minecraft:cobblestone', count: 2, chance: 0.2 },
-    { id: 'minecraft:stone', count: 2, chance: 0.2 },
-    { id: 'minecraft:stone', count: 1, chance: 0.2 },
-    { id: 'minecraft:cobblestone', count: 1, chance: 0.1 },
-    { id: 'minecraft:cobblestone', count: 1, chance: 0.1 }
+    { id: 'minecraft:stone', count: 5, chance: 0.2 },
+    { id: 'minecraft:cobblestone', count: 5, chance: 0.1 }
 ], 1.0, true)
 addCombBlockDrop('productivebees:slimy', [
     { id: 'minecraft:slime_ball', count: 3, chance: 1.0 },
-    { id: 'minecraft:slime_ball', count: 2, chance: 0.2 },
-    { id: 'minecraft:slime_ball', count: 2, chance: 0.2 },
-    { id: 'minecraft:slime_ball', count: 1, chance: 0.2 },
-    { id: 'minecraft:slime_block', count: 1, chance: 0.1 },
-    { id: 'minecraft:slime_ball', count: 1, chance: 0.1 }
+    { id: 'minecraft:slime_ball', count: 6, chance: 0.2 },
+    { id: 'minecraft:slime_block', count: 1, chance: 0.1 }
 ], 1.0, true)
 addCombBlockDrop('productivebees:blazing', [
     { id: 'minecraft:blaze_rod', count: 3, chance: 1.0 },
-    { id: 'minecraft:blaze_powder', count: 2, chance: 0.2 },
-    { id: 'minecraft:blaze_rod', count: 2, chance: 0.2 },
-    { id: 'minecraft:blaze_rod', count: 1, chance: 0.2 },
-    { id: 'minecraft:blaze_powder', count: 1, chance: 0.1 },
-    { id: 'minecraft:blaze_powder', count: 1, chance: 0.1 }
+    { id: 'minecraft:blaze_powder', count: 3, chance: 0.2 },
+    { id: 'minecraft:blaze_rod', count: 3, chance: 0.2 }
 ], 1.0, true)

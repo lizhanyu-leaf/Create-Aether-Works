@@ -4,18 +4,31 @@
     
     "item.kubejs.basic_mechine_set": "基础机械集合",
     "item.kubejs.incomplete_basic_mechine_set": "基础机械集合[半成品]",
+    "item.kubejs.gearbox_set": "传动集合",
+    "item.kubejs.incomplete_gearbox_set": "传动集合[半成品]",
     "item.kubejs.fluid_set": "流体集合",
     "item.kubejs.incomplete_fluid_set": "流体集合[半成品]",
+    "item.kubejs.smart_mechine_set": "智能机械集合",
+    "item.kubejs.incomplete_smart_mechine_set": "智能机械集合[半成品]",
 
     "item.kubejs.mobile_beehive": "便携式蜂箱",
+    "item.kubejs.honey_pack": "蜂蜜包裹",
+    "item.kubejs.honey_pack_open": "打开的蜂蜜包裹",
 
     "item.kubejs.wooden_mechanical_core": "木质机械核心",
     "item.kubejs.copper_mechanical_core": "铜质机械核心",
+    "item.kubejs.brass_mechanical_core": "黄铜质机械核心",
+
     "item.kubejs.wood_set": "木质集合",
+    "item.kubejs.stone_set": "石头集合",
+    "item.kubejs.creative_set": "创造集合",
+
+    "item.kubejs.sturdy_sheet_base": "半成品坚固板",
 
     "item.kubejs.incomplete_chain": "锁链[半成品]",
     "item.kubejs.incomplete_bee_cage": "蜜蜂笼[半成品]",
     "item.kubejs.incomplete_super_glue": "强力胶[半成品]",
+    "item.kubejs.incomplete_basic_control_circuit": "半成品基础控制电路",
 
     "item.kubejs.compression_iron_ingot": "压缩铁锭 I",
     "item.kubejs.compression_iron_ingot_tier_2": "压缩铁锭 II",
@@ -44,12 +57,25 @@
     "item.kubejs.essence_ingot": "精华锭",
     "item.kubejs.essence_sheet": "精华板",
 
-    "tooltip.need_bee": "需要：",
+    "item.kubejs.bedrock_powder": "基岩粉",
+    "item.kubejs.bedrock_sheet": "基岩板",
+
+    "item.kubejs.incomplete_bedrock_mechanism": "基岩构件[半成品]",
+    "item.kubejs.bedrock_mechanism": "基岩构件",
+    "item.kubejs.incomplete_honey_mechanism": "蜂蜜构件[半成品]",
+    "item.kubejs.incomplete_honey_mechanism.tooltip.summary": "辛勤劳作的蜜蜂为你奉献的美食，虽然是半成品，但也足够美味。",
+    "item.kubejs.honey_mechanism": "蜂蜜构件",
+    "item.kubejs.honey_mechanism.tooltip.summary": "辛勤劳作的蜜蜂为你奉献的美食，绝世的美味。",
+
     "kubejs.recipe.consume": "消耗方块",
     "kubejs.recipe.not_consume": "不消耗方块",
     "kubejs.recipe.item_entity_processing": "掉落物加工",
     "kubejs.recipe.item_entity_smelting": "掉落物熔炼",
     "kubejs.recipe.block_drops": "方块钻取",
     "kubejs.recipe.comb_block_drops": "蜜脾块钻取",
-    "kubejs.recipe.block_deploying": "方块装配"
+    "kubejs.recipe.block_deploying": "方块装配",
+    
+    "tooltip.need_bee": "需要：",
+    "tooltip.mobile_beehive.empty": "§7蜂箱是空的",
+    "tooltip.mobile_beehive.contains": "§6蜂箱内容:"
 }

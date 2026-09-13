@@ -9,8 +9,6 @@
 	id: "54883D8FAE2B0927"
 	images: [ ]
 	order_index: 1
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -118,7 +116,7 @@
 				item: { count: 1, id: "minecraft:oak_log" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -5.5d
 		}
 		{
@@ -145,7 +143,7 @@
 				item: { count: 1, id: "minecraft:stone" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: -4.5d
 		}
 		{
@@ -173,7 +171,7 @@
 				item: { count: 1, id: "minecraft:slime_ball" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: -3.5d
 		}
 		{
@@ -201,7 +199,7 @@
 				item: { count: 1, id: "minecraft:blaze_powder" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -2.5d
 		}
 		{
@@ -229,7 +227,7 @@
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -5.5d
 		}
 		{
@@ -257,7 +255,7 @@
 				item: { count: 1, id: "minecraft:gold_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -285,7 +283,7 @@
 				item: { count: 1, id: "create:zinc_ingot" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -313,8 +311,30 @@
 				item: { count: 1, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["0CD4E83C28DF6168"]
+			id: "1BA2EA0F25883768"
+			tasks: [{
+				id: "0DE6D443543210C9"
+				item: { count: 1, id: "kubejs:honey_mechanism" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1BA2EA0F25883768"]
+			id: "04A9160102583CA8"
+			tasks: [{
+				id: "6C6BAF56A50026C0"
+				item: { count: 1, id: "kubejs:honey_pack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
 		}
 	]
 }

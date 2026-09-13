@@ -49,6 +49,7 @@
 	quest.16429D38E04EACE1.quest_desc: [""]
 	quest.176131E072A189B2.quest_subtitle: "给动态结构提供旋转（？）"
 	quest.1925372A2CD6A7CC.quest_subtitle: "🦼轮椅🦼"
+	quest.1BA2EA0F25883768.quest_subtitle: "接下来你就可以自己制作蜜蜂了"
 	quest.1D9E1FAB34F5BE6A.quest_subtitle: "你如果想打史莱姆，也行"
 	quest.1EE4722720E52914.quest_subtitle: "内嵌钻石锄会爆耐久的"
 	quest.217E67866A9C4D8A.quest_subtitle: "电力存储兼应力存储"
@@ -72,7 +73,9 @@
 	quest.45196B1D24EE6CCF.quest_subtitle: "不用打胶的"
 	quest.46BD45688D07A178.quest_subtitle: "转速不能太高的"
 	quest.48EC88B4B8B2BF33.quest_subtitle: "你也要成为水车仙人吗"
+	quest.51CEAA723F32A64A.title: "启动资金"
 	quest.5665D2615B5B16AE.title: "金蜜蜂"
+	quest.576306685030B857.title: "用动力钻头采集青金石块"
 	quest.5856EC3A5DD1A3F5.title: "材料准备"
 	quest.59D417B05688FEFD.title: "铜蜜蜂"
 	quest.5A39E0DA2EF2681C.quest_subtitle: "这一章的任务好好看"
@@ -80,6 +83,7 @@
 	quest.5CE4ADEB507EA675.quest_subtitle: "都这么爽了还要什么简单模式"
 	quest.5CE4ADEB507EA675.title: "简单模式"
 	quest.5D8E01A6FAB31B2A.quest_subtitle: "掉虚空了直说"
+	quest.5F33F161886A025F.quest_subtitle: "只方便，不实惠"
 	quest.68BE9DB369A7C377.title: "锌蜜蜂"
 	quest.6B26EA5FE9B73299.title: "木质工具"
 	quest.6C19E146AE04DE74.quest_subtitle: "能过滤的溜槽！"
@@ -93,6 +97,7 @@
 	reward.5DA2E1B10DA0F023.title: "创造飞行"
 	task.0634DC628E73886E.title: "泥土不见了..."
 	task.415F07536C12D47E.title: "简单模式"
+	task.5628CE7549515963.title: "启动资金"
 	task.67CA44088136E4BB.title: "对泥土使用木镐 获取圆石"
 	task.6F34E700628FE83F.title: "降生"
 }

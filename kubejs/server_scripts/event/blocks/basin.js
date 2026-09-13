@@ -7,35 +7,44 @@ KJSCAutoEvents.basinOperation(event => {
     const { basin, block, level, outputs, recipe, recipeId } = event;
     
     // 1. 检查配方
-    if (recipeId.toString() !== "kubejs:compacting/honeycomb_to_block_hidden") return;
-    // level.players.forEach(p => p.sendSystemMessage(1))
+    if (recipeId.toString() !== "kubejs:compacting/honeycomb_to_block_hidden" && recipeId.toString() !== "kubejs:compacting/comb_to_result_hidden") return;
     
     // 2. 获取 Basin 实体
     let basinEntity = block.entity;
     if (!basinEntity) return;
     
-    // 3. 创建 CompoundTag 并保存实体数据到其中
+    // 3. 保存实体数据
     let tag = basinEntity.saveWithoutMetadata(level.registryAccess());
     
-    // 4. 从 tag 中读取数据
+    // 4. 读取输入物品
     let inputItems = tag.getCompound('InputItems');
-    if (!inputItems) {
-        return;
-    }
+    if (!inputItems) return;
     
     let itemsList = inputItems.getList('Items', 10);
     if (itemsList.size() === 0) return;
     
-    // 5. 查找 configurable_honeycomb 并提取 bee_type
+    // 5. 遍历查找输入物品
     let beeType = null;
+    let isComb = false;
+    
     for (let i = 0; i < itemsList.size(); i++) {
         let itemCompound = itemsList.getCompound(i);
         let id = itemCompound.getString('id');
         
-        if (id ==='productivebees:configurable_honeycomb') {
+        if (id === 'productivebees:configurable_honeycomb') {
             let components = itemCompound.getCompound('components');
             if (components) {
                 beeType = components.getString('productivebees:bee_type');
+                isComb = false;
+                if (beeType) break;
+            }
+        }
+        
+        if (id === 'productivebees:configurable_comb') {
+            let components = itemCompound.getCompound('components');
+            if (components) {
+                beeType = components.getString('productivebees:bee_type');
+                isComb = true;
                 if (beeType) break;
             }
         }
@@ -43,13 +52,35 @@ KJSCAutoEvents.basinOperation(event => {
     
     if (!beeType) return;
     
-    // 6. 应用到输出
+    // ========== 情况A：蜜脾块 → 直接出产物 ==========
+    if (isComb) {
+        let dropRecipe = global.recipes.combBlockDrops?.[beeType];
+        if (!dropRecipe) return;
+        
+        outputs.clear();
+        
+        // 用 CreateItem.of() + rollOutput() 处理概率
+        for (let drop of dropRecipe.drops) {
+            let createItem = CreateItem.of(
+                Item.of(drop.id, drop.count || 1),
+                drop.chance || 1.0
+            );
+            let result = createItem.rollOutput(level.getRandom());
+            
+            if (!result.isEmpty()) {
+                outputs.add(result);
+            }
+        }
+        
+        return;
+    }
+    
+    // ========== 情况B：蜜脾 → 正常合成蜜脾块 ==========
     if (outputs.size() > 0) {
         let output = outputs.get(0).copy();
-        output.set('productivebees:bee_type', beeType)
+        output.set('productivebees:bee_type', beeType);
         
-        // 重新设置输出
-        outputs.clear()
-        outputs.add(output)
+        outputs.clear();
+        outputs.add(output);
     }
 });

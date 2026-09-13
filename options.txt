@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","file/LegacyCopperContinued-1.2.zip","file/Old Copper Stuffs v1.8 For 1.21.1.zip","mod/fluidlogistics:resourcepacks/cu_again_for_fluidlogistics","file/CreateSophBackpacks.zip","file/Create FTB Quests 1.0.zip","file/create_mcGUI_0.3.0-beta.5.zip"]
+resourcePacks:["vanilla","mod_resources","file/LegacyCopperContinued-1.2.zip","file/Old Copper Stuffs v1.8 For 1.21.1.zip","mod/fluidlogistics:resourcepacks/cu_again_for_fluidlogistics","file/CreateSophBackpacks.zip","file/Create FTB Quests 1.0.zip","file/create_mcGUI_1.0.0.zip"]
 incompatibleResourcePacks:["file/LegacyCopperContinued-1.2.zip","file/Create FTB Quests 1.0.zip"]
 lastServer:
 lang:zh_cn
@@ -133,7 +133,6 @@ key_key.jei.showUses:key.keyboard.u
 key_key.jei.showUses2:key.mouse.right
 key_key.jei.transferRecipeBookmark:key.mouse.left:SHIFT
 key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
-key_key.jei.showBookmarkTooltipFeatures:key.keyboard.left.control
 key_key.jei.quickMove:key.mouse.left:SHIFT
 key_key.jei.shareToChat:key.keyboard.unknown
 key_key.jei.clearSearchBar:key.mouse.right
@@ -157,6 +156,16 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.mekanism.mode:key.keyboard.n
+key_key.mekanism.head_mode:key.keyboard.v
+key_key.mekanism.chest_mode:key.keyboard.g
+key_key.mekanism.legs_mode:key.keyboard.j
+key_key.mekanism.feet_mode:key.keyboard.b
+key_key.mekanism.details:key.keyboard.left.shift
+key_key.mekanism.description:key.keyboard.n:SHIFT
+key_key.mekanism.module_tweaker:key.keyboard.backslash
+key_key.mekanism.key_boost:key.keyboard.left.control
+key_key.mekanism.key_hud:key.keyboard.h
 key_key.sophisticatedcore.sort:key.mouse.middle
 key_key.sophisticatedcore.transfer_to_storage:key.keyboard.left.bracket
 key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket
@@ -274,6 +283,8 @@ key_key.ftbquests.gui_quest_panel.add_page_break:key.keyboard.p
 key_key.ftbquests.gui_quest_panel.add_line:key.keyboard.l
 key_key.ftbquests.gui_quest_panel.add_image:key.keyboard.i
 key_key.ftbquests.gui_quest_panel.edit_quest_props:key.keyboard.q
+key_key.modernui.openCenter:key.keyboard.k:CONTROL
+key_key.modernui.zoom:key.keyboard.c
 key_key.constructionstick.change_restriction:key.keyboard.unknown
 key_key.constructionstick.change_upgrade:key.keyboard.unknown
 key_key.constructionstick.change_direction:key.keyboard.unknown

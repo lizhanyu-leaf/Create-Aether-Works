@@ -9,8 +9,6 @@
 	id: "5F03F4788C5FAE48"
 	images: [ ]
 	order_index: 0
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -60,6 +58,14 @@
 					item: {
 						count: 1
 						id: "torchmaster:megatorch"
+					}
+					type: "item"
+				}
+				{
+					id: "107C83FB931B7CF1"
+					item: {
+						count: 1
+						id: "kubejs:honey_mechanism"
 					}
 					type: "item"
 				}
@@ -224,6 +230,30 @@
 					item: {
 						count: 1
 						id: "minecraft:flint"
+					}
+					type: "item"
+				}
+				{
+					id: "560D071B69A6A77B"
+					item: {
+						count: 1
+						id: "create:creative_blaze_cake"
+					}
+					type: "item"
+				}
+				{
+					id: "388E033980D47C16"
+					item: {
+						components: {
+							"mekanism:items": {
+								items: [{
+									count: 2147483647
+									id: "kubejs:creative_set"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_bin"
 					}
 					type: "item"
 				}

@@ -3,11 +3,12 @@
 	default_quest_shape: ""
 	filename: "15d7fac27852c4d9"
 	group: "7E0DD3B1F18F3952"
+	icon: {
+		id: "minecraft:bedrock"
+	}
 	id: "15D7FAC27852C4D9"
 	images: [ ]
 	order_index: 0
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -29,7 +30,315 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DDFA19A49D11EEB"]
+			id: "053A5B1FB6A2714E"
+			tasks: [{
+				id: "046F466DB919522E"
+				item: { count: 1, id: "kubejs:bedrock_powder" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["053A5B1FB6A2714E"]
+			id: "410C969FBBE51F16"
+			tasks: [{
+				id: "20C18DE3337A2D96"
+				item: { count: 1, id: "kubejs:bedrock_sheet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["410C969FBBE51F16"]
+			hide_dependent_lines: true
+			id: "096AA5F8C1F2F18A"
+			tasks: [{
+				id: "4402A5547BEBCAE0"
+				item: { count: 1, id: "kubejs:bedrock_mechanism" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"096AA5F8C1F2F18A"
+				"2A4122ECDF9CC74E"
+			]
+			id: "118DC96101F7581E"
+			tasks: [{
+				id: "3FF619CE6D6240C3"
+				item: { count: 1, id: "mekmm:planting_station" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["096AA5F8C1F2F18A"]
+			id: "1B5F3A21B7FEED29"
+			tasks: [{
+				id: "434F79B60E3EA668"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"096AA5F8C1F2F18A"
+				"2A4122ECDF9CC74E"
+			]
+			id: "051D7371C25DD6BB"
+			tasks: [{
+				id: "161FE907E5205267"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"096AA5F8C1F2F18A"
+				"2A4122ECDF9CC74E"
+			]
+			id: "69B6AD0DA5314A55"
+			tasks: [{
+				id: "52FEC3C54367A797"
+				item: { count: 1, id: "mekanism:combiner" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"096AA5F8C1F2F18A"
+				"2A4122ECDF9CC74E"
+			]
+			id: "78BA1C7D123F5B48"
+			tasks: [{
+				id: "32F43DA3DF4D8EC5"
+				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"096AA5F8C1F2F18A"
+				"2A4122ECDF9CC74E"
+			]
+			id: "24DCAF847720CFBF"
+			tasks: [{
+				id: "6A8B55B05F548F20"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["738FD91E89FA701D"]
+			id: "301A5C59C0F5E65D"
+			tasks: [{
+				id: "71ED1AE9181B8A97"
+				item: { count: 1, id: "mekanism:osmium_compressor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"096AA5F8C1F2F18A"
+				"2A4122ECDF9CC74E"
+			]
+			id: "01F130FC6AF6C6B9"
+			tasks: [{
+				id: "73EEDEBA8FADB098"
+				item: { count: 1, id: "mekmm:cnc_stamper" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01F130FC6AF6C6B9"]
+			id: "738FD91E89FA701D"
+			tasks: [{
+				id: "76189E17505CC952"
+				item: { count: 1, id: "mekmm:presser" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A4122ECDF9CC74E"]
+			id: "072FEAF3F1E1144A"
+			tasks: [{
+				id: "5C01DFC88BE28ADC"
+				item: { count: 1, id: "mekanism:basic_tier_installer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2937677787AE3AD2"]
+			id: "43EC529B8FBFCDB7"
+			tasks: [{
+				id: "6D2F6365993D6ADC"
+				item: { count: 1, id: "mekanism:advanced_tier_installer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1CC86F4FED1CA48C"]
+			id: "5F89E292A4A18454"
+			tasks: [{
+				id: "75990D2556D8C09E"
+				item: { count: 1, id: "mekanism:elite_tier_installer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13135B6B42E0B0CE"]
+			id: "76AC9DDED1F4C6E7"
+			tasks: [{
+				id: "2AEEF978B38E2BA8"
+				item: { count: 1, id: "mekanism:ultimate_tier_installer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"301D838842F876EE"
+				"1CC86F4FED1CA48C"
+			]
+			id: "13135B6B42E0B0CE"
+			tasks: [{
+				id: "7AE6E6747BEA32BF"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2937677787AE3AD2"
+				"3FF02334B26AA100"
+			]
+			id: "1CC86F4FED1CA48C"
+			tasks: [{
+				id: "04CF3CD9E55B3F64"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2A4122ECDF9CC74E"
+				"1A70DFDF36D1D970"
+			]
+			id: "2937677787AE3AD2"
+			tasks: [{
+				id: "42CF4637A06619CB"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"639DB32CE4A108B7"
+				"1B5F3A21B7FEED29"
+			]
+			hide_dependent_lines: true
+			id: "2A4122ECDF9CC74E"
+			tasks: [{
+				id: "7EE464848AD6D6B6"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "1A70DFDF36D1D970"
+			tasks: [{
+				id: "444D614EA38BCF7C"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A70DFDF36D1D970"]
+			id: "3FF02334B26AA100"
+			tasks: [{
+				id: "679C91C8073735C8"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FF02334B26AA100"]
+			id: "301D838842F876EE"
+			tasks: [{
+				id: "4DCA367320854835"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			id: "639DB32CE4A108B7"
+			tasks: [{
+				id: "3AC6E675E66AE386"
+				item: { count: 1, id: "kubejs:incomplete_basic_control_circuit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"096AA5F8C1F2F18A"
+				"2A4122ECDF9CC74E"
+			]
+			id: "0C3A676FC8412DEA"
+			tasks: [{
+				id: "74016DB8D0A73C87"
+				item: { count: 1, id: "mekanism:energized_smelter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
 		}
 	]
 }

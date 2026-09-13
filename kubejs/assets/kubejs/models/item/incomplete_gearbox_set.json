@@ -1,0 +1,71 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "create:block/andesite_casing",
+		"1": "create:block/gearbox",
+		"4": "block/iron_block",
+		"particle": "create:block/axis"
+	},
+	"elements": [
+		{
+			"name": "Bottom",
+			"from": [4, 2, 4],
+			"to": [12, 3, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 2, 4]},
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 14, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Core",
+			"from": [4.5, 3, 4.5],
+			"to": [11.5, 9, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 1, 4]},
+			"faces": {
+				"north": {"uv": [1, 2, 15, 14], "texture": "#1"},
+				"east": {"uv": [1, 2, 15, 14], "texture": "#1"},
+				"south": {"uv": [1, 2, 15, 14], "texture": "#1"},
+				"west": {"uv": [1, 2, 15, 14], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Top",
+			"from": [4, 9, 4],
+			"to": [12, 10, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, -5, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 1, 1],
+			"to": [15, 2, 15],
+			"faces": {
+				"north": {"uv": [1, 0, 15, 1], "texture": "#4"},
+				"east": {"uv": [1, 0, 15, 1], "texture": "#4"},
+				"south": {"uv": [1, 0, 15, 1], "texture": "#4"},
+				"west": {"uv": [1, 0, 15, 1], "texture": "#4"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#4"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#4"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		2,
+		3
+	]
+}

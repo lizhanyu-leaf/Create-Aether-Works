@@ -255,21 +255,6 @@ ServerEvents.recipes(event => {
         'kubejs:incomplete_chain', 1
     )
 
-    create.sequenced_assembly(
-        [
-            CreateItem.of('fluidlogistics:waterproof_cardboard_block', 0.05),
-            CreateItem.of('create:cardboard_block', 0.95)
-        ],
-        ['create:cardboard_block'],
-        [
-            create.deploying(
-                ['create:cardboard_block'],
-                ['create:cardboard_block', 'create:cardboard']
-            )
-        ],
-        'create:cardboard_block', 1
-    )
-
     create.pressing(
         [
             'kubejs:wooden_hand',
@@ -300,32 +285,47 @@ ServerEvents.recipes(event => {
         ]
     )
 
-    create.pressing(
+    event.remove({id: "create:sequenced_assembly/sturdy_sheet"})
+    create.compacting(
         [
-            CreateItem.of(Item.of('minecraft:slime_ball', 8), 0.95),
-            CreateItem.of('kubejs:slime_essence', 0.2)
+            Item.of("kubejs:sturdy_sheet_base")
         ],
         [
-            'minecraft:slime_block'
+            Item.of("create:powdered_obsidian"),
+            Fluid.of("minecraft:lava", 250)
         ]
-    )
+    ).heated()
+
+    event.custom({
+        "type": "fluidlogistics:cooling_compacting",
+        "ingredients": [
+            {
+                "item": "kubejs:sturdy_sheet_base"
+            }
+        ],
+        "results": [
+            {
+                "id": "create:sturdy_sheet"
+            }
+        ],
+        "supercooled": false
+    })
+
+    create.mixing(
+        [
+            Item.of("kubejs:bedrock_sheet")
+        ],
+        [
+            Item.of("create:sturdy_sheet"),
+            Item.of("kubejs:bedrock_powder", 2),
+            Fluid.of("minecraft:lava")
+        ]
+    ).superheated()
 
     create.deploying(
         ['kubejs:incomplete_super_glue'],
         ['create:iron_sheet', 'minecraft:iron_nugget']
     )
-
-    create.mixing(
-        [
-            'create:sturdy_sheet',
-            CreateItem.of('kubejs:sturdy_essence', 0.2)
-        ],
-        [
-            'create:powdered_obsidian',
-            'create:iron_sheet',
-            Fluid.of('minecraft:lava', 250)
-        ]
-    ).heated()
 
     create.compacting(
         ['create:blaze_cake_base'],
@@ -336,25 +336,34 @@ ServerEvents.recipes(event => {
         ]
     )
 
-    create.mixing(
-        [
-            CreateItem.of(Item.of('kubejs:blaze_essence'), 0.2)
-        ],
-        [
-            'minecraft:blaze_powder',
-            Fluid.of('minecraft:lava', 125)
-        ]
-    ).superheated()
+    create.crushing(
+        [CreateItem.of('kubejs:blaze_essence', 0.1)],
+        [Item.of('minecraft:blaze_powder')]
+    )
 
-    create.deploying(
-        [
-            'create:brass_ingot',
-            CreateItem.of(Item.of('kubejs:smart_essence'), 0.2)
-        ],
-        [
-            'create:brass_sheet',
-            'create:brass_nugget'
-        ]
+    create.crushing(
+        [CreateItem.of('kubejs:natural_essence', 0.1)],
+        [Item.of('minecraft:moss_block')]
+    )
+
+    create.crushing(
+        [CreateItem.of('kubejs:precision_essence', 0.1)],
+        [Item.of('create:precision_mechanism')]
+    )
+
+    create.crushing(
+        [CreateItem.of('kubejs:slime_essence', 0.1)],
+        [Item.of('minecraft:slime_ball')]
+    )
+
+    create.crushing(
+        [CreateItem.of('kubejs:smart_essence', 0.1)],
+        [Item.of('create:brass_hand')]
+    )
+
+    create.crushing(
+        [CreateItem.of('kubejs:sturdy_essence', 0.1)],
+        [Item.of('create:powdered_obsidian')]
     )
 
     create.mechanical_crafting(

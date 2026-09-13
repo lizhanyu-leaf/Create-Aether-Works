@@ -136,23 +136,22 @@
 	# Default: 200
 	# Range: 0 ~ 1000000
 	lazyRecipeLayoutThreshold = 200
+	#Register large GTCEu recipe categories with JEI in bounded, ordered batches.
+	#Preserves every recipe and focus index while reducing temporary startup allocations.
+	batchGtceuRecipeRegistration = true
 
 [async]
-	#Async search prefix index preheat. Default OFF (disabled).
-	#Reason: this builds a separate, approximate search index that can override JEI's
-	#own results for prefixed queries (@ mod, # tooltip, $ tag, % tab, ^ color, & id).
-	#It is redundant with asyncIngredientFilter, which already rebuilds JEI's real
-	#ElementSearch off-thread; the shadow index can return incomplete results and may
-	#block the render thread if a prefixed search runs before it finishes building.
-	#Enable only if you specifically need it and accept these trade-offs.
+	#Retired compatibility key. This option is always disabled.
+	#The old implementation duplicated JEI's search strings and prefix maps, could use
+	#gigabytes in large packs, and was not authoritative for empty search results.
 	searchPreheat = false
-	#Enable client-tick chunked snapshot extraction.
+	#Retired compatibility key. This option is always disabled.
 	snapshotChunking = true
-	#Enable async sort computation.
+	#Retired compatibility key. This option is always disabled.
 	sortPreheat = true
-	#Enable async recipe focus index preheat.
+	#Retired compatibility key. This option is always disabled.
 	recipeFocusPreheat = true
-	#Enable async catalyst index preheat.
+	#Retired compatibility key. This option is always disabled.
 	catalystPreheat = true
 	#Worker thread count. 0 selects available processors minus two, clamped to 1-8.
 	#Ignored when all async features are disabled.
@@ -163,13 +162,13 @@
 	# Default: 250
 	# Range: 1 ~ 1000000
 	parallelThreshold = 250
-	#Per-client-tick snapshot extraction budget in milliseconds. Ignored when snapshotChunking is disabled.
+	#Retired compatibility key. This value is ignored.
 	# Default: 2
 	# Range: 1 ~ 10
 	snapshotBudgetMs = 2
-	#Prepare ingredient visibility in client-tick chunks, then use JEI's native batch search builder.
+	#Populate one isolated JEI ingredient search in client-tick-budgeted steps.
 	deferredIngredientFilter = true
-	#Per-client-tick budget in milliseconds for ingredient visibility preparation.
+	#Per-client-tick budget in milliseconds for isolated ingredient search construction.
 	# Default: 10
 	# Range: 1 ~ 40
 	ingredientFilterBudgetMs = 10
@@ -177,10 +176,9 @@
 	# Default: 500
 	# Range: 50 ~ 4000
 	ingredientFilterChunkSize = 500
-	#Prepare ingredient visibility incrementally on client ticks, then atomically publish JEI's native batch index.
-	#JEI and mod visibility helpers stay on their required client thread, with a deadline check after every item.
-	#The search storage is never populated one item at a time, avoiding excessive memory use on newer JEI versions.
-	#JEI waits for the complete isolated index and publishes the sidebar once.
+	#Populate one isolated JEI ingredient search incrementally on client ticks.
+	#Visibility, tooltip, tag, creative-tab, and color helpers stay on the client thread.
+	#JEI waits for the complete index and publishes the sidebar once.
 	#Enabled by default.
 	asyncIngredientFilter = true
 	#Resolve recipe ingredient tags on worker threads before JEI validates recipes during startup.
@@ -190,9 +188,15 @@
 	#Run JEI startup serially on a dedicated background thread so the render thread stays responsive while
 	#JEI builds its item list and recipes after you enter a world. JEI overlays and search simply
 	#appear when startup finishes instead of freezing the loading screen.
-	#Plugin callbacks keep JEI's original order and are never run concurrently. Runtime-available
-	#callbacks and publication run on the client thread. Disable this option if an earlier plugin
-	#registration callback requires the render thread. Leaving a world, timing out, or losing the server
+	#Plugin callbacks keep JEI's original order and are never run concurrently. Plugins listed in
+	#mainThreadPlugins, runtime-available callbacks, and publication run on the client thread.
+	#Leaving a world, timing out, or losing the server
 	#cancels an in-progress build before
 	#its runtime can be published. Enabled by default.
 	asyncStartup = true
+	#JEI plugin IDs that must run on the client thread during asynchronous startup.
+	#Use a full plugin ID such as "theurgy:jei_plugin", or a mod ID such as "theurgy"
+	#to route every JEI plugin from that mod. Add entries when a log reports that a plugin
+	#called a main-thread-only API from justenoughthreads-start. JEI's own creative-tab
+	#enumeration and GUI runtime construction stay on the client thread automatically.
+	mainThreadPlugins = ["alexscaves:alexscaves", "experienceobelisk:jei_plugin", "collectorsreap:jei_plugin", "theurgy:jei_plugin", "productivetrees:productivetrees"]

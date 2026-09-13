@@ -77,8 +77,8 @@ JEIAddedEvents.registerCategories(event => {
     .forEach(d => event.custom(d.id, category => {
         category.title(Component.translate('kubejs.recipe.' + d.name));
         category.setWidth(177);
-        category.setHeight(72);
-        category.background(guiHelper.createBlankDrawable(178, 72));
+        category.setHeight(d.type === 2 ? 82 : 72);
+        category.background(guiHelper.createBlankDrawable(178, d.type === 2 ? 82 : 72));
 
         category.icon(new $DoubleItemIcon(
             () => Item.of('createoreexcavation:drill'),
@@ -172,6 +172,11 @@ JEIAddedEvents.registerCategories(event => {
             
             graphics['drawString(net.minecraft.client.gui.Font,net.minecraft.network.chat.Component,int,int,int,boolean)']
                 (font, consumeString, 2, 5, -7829368, false)
+
+            if (d.type == 2) {
+                graphics['drawString(net.minecraft.client.gui.Font,net.minecraft.network.chat.Component,int,int,int,boolean)']
+                (font, Component.literal("注: 超级加热塑型也可以产出该配方产物"), 2, 74, -7829368, false)
+            }
             
         })
     }))
