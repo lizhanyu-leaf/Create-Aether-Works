@@ -15,6 +15,7 @@ RecipeViewerEvents.removeCategories(event => {
 
 RecipeViewerEvents.removeRecipes(event => {
     event.remove([
-        'kubejs:compaction/honeycomb_to_block_hidden'
+        'kubejs:compacting/honeycomb_to_block_hidden',
+        'kubejs:compacting/comb_to_result_hidden'
     ])
 })

@@ -160,44 +160,44 @@ KJSCAutoEvents.deployerUse(event => {
     }
 })
 
-KJSCAutoEvents.deployerUse(event => {
-    const { block, level, heldItem, outputs, transportedItem, server } = event
+// KJSCAutoEvents.deployerUse(event => {
+//     const { block, level, heldItem, outputs, transportedItem, server } = event
     
-    // 1. 检查被装配的物品是否是蜂蜜机械装置
-    if (transportedItem.id != 'kubejs:honey_mechanism') return;
+//     // 1. 检查被装配的物品是否是蜂蜜机械装置
+//     if (transportedItem.id != 'kubejs:honey_mechanism') return;
     
-    // 2. 检查手持物品是否是蜂蜜包
-    if (heldItem.id != 'kubejs:honey_pack') return;
+//     // 2. 检查手持物品是否是蜂蜜包
+//     if (heldItem.id != 'kubejs:honey_pack') return;
 
-    outputs.clear()
+//     outputs.clear()
     
-    // 3. 获取蜂蜜包的 BeeType
-    let data = heldItem.get('minecraft:custom_data')
-    if (data == null) {
-        outputs.add(Item.of('minecraft:bee_spawn_egg'));
-        return;
-    }
+//     // 3. 获取蜂蜜包的 BeeType
+//     let data = heldItem.get('minecraft:custom_data')
+//     if (data == null) {
+//         outputs.add(Item.of('minecraft:bee_spawn_egg'));
+//         return;
+//     }
     
-    let tag = data.copyTag()
-    let beeType = tag.getString('BeeType')
+//     let tag = data.copyTag()
+//     let beeType = tag.getString('BeeType')
     
-    if (!beeType || beeType.isEmpty()) {
-        outputs.add(Item.of('minecraft:bee_spawn_egg'));
-        return;
-    }
+//     if (!beeType || beeType.isEmpty()) {
+//         outputs.add(Item.of('minecraft:bee_spawn_egg'));
+//         return;
+//     }
     
-    // 4. 生成刷怪蛋
-    let spawnEgg = Item.of('productivebees:spawn_egg_configurable_bee')
-    spawnEgg.set('entity_data', {
-        id: 'productivebees:configurable_bee',
-        type: beeType
-    })
+//     // 4. 生成刷怪蛋
+//     let spawnEgg = Item.of('productivebees:spawn_egg_configurable_bee')
+//     spawnEgg.set('entity_data', {
+//         id: 'productivebees:configurable_bee',
+//         type: beeType
+//     })
     
-    // 5. 设置输出
-    outputs.add(spawnEgg)
+//     // 5. 设置输出
+//     outputs.add(spawnEgg)
     
-    console.log(`✅ 蜂蜜机械装配: ${beeType} -> 刷怪蛋`)
-})
+//     console.log(`✅ 蜂蜜机械装配: ${beeType} -> 刷怪蛋`)
+// })
 
 ServerEvents.recipes(event => {
     let recipes = global.recipes.mobileBeehive
@@ -226,12 +226,12 @@ ServerEvents.recipes(event => {
             [beehive, Ingredient.of(recipe.flower)]
         ).keepHeldItem()
     }
-    let item = Item.of('productivebees:spawn_egg_configurable_bee');
-    item.setItemName(Component.literal("对应种类蜜蜂,空包则出原版蜜蜂"));
-    event.recipes.create.deploying(
-        [item],
-        [Item.of('kubejs:honey_mechanism'), Item.of('kubejs:honey_pack')]
-    )
+    // let item = Item.of('productivebees:spawn_egg_configurable_bee');
+    // item.setItemName(Component.literal("对应种类蜜蜂,空包则出原版蜜蜂"));
+    // event.recipes.create.deploying(
+    //     [item],
+    //     [Item.of('kubejs:honey_mechanism'), Item.of('kubejs:honey_pack')]
+    // )
 })
 
 KJSCAutoEvents.deployerUse(event => {

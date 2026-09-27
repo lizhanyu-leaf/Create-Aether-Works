@@ -91,15 +91,37 @@ ServerEvents.recipes(event => {
         ['kubejs:mobile_beehive', 'productivebees:bee_cage']
     )
 
-    create.compacting(
-        ['productivebees:configurable_comb'],
-        ['4x productivebees:configurable_honeycomb']
-    ).id('kubejs:compacting/honeycomb_to_block_hidden')
+    Object.entries(global.recipes.combBlockDrops).forEach(entry => {
+        let beeId = entry[0];
+        let data = entry[1];
 
-    create.compacting(
-        ['productivebees:configurable_comb'],
-        ['productivebees:configurable_comb']
-    ).superheated().id('kubejs:compacting/comb_to_result_hidden')
+        create.compacting(
+            data.drops.map(d => CreateItem.of(Item.of(d.id, d.count), d.chance)),
+            Ingredient.of(
+                `productivebees:configurable_comb[productivebees:bee_type="${beeId}"]`
+            )
+        ).superheated()
+
+        create.compacting(
+            Item.of(`productivebees:configurable_comb[productivebees:bee_type="${beeId}"]`),
+            [
+                Ingredient.of(
+                    `productivebees:configurable_honeycomb[productivebees:bee_type="${beeId}"]`
+                ),
+                Ingredient.of(
+                    `productivebees:configurable_honeycomb[productivebees:bee_type="${beeId}"]`
+                ),
+                Ingredient.of(
+                    `productivebees:configurable_honeycomb[productivebees:bee_type="${beeId}"]`
+                ),
+                Ingredient.of(
+                    `productivebees:configurable_honeycomb[productivebees:bee_type="${beeId}"]`
+                ),
+            ]
+        )
+    })
+
+    let packs = [];
 
     function honeyPack(beeType, steps, loops) {
         let pack = Item.of(`kubejs:honey_pack[custom_data={BeeType:"${beeType}"}]`);
@@ -111,7 +133,14 @@ ServerEvents.recipes(event => {
             steps
         ).transitionalItem('kubejs:honey_pack_open')
         .loops(loops)
+
+        packs.push(beeType)
     }
+
+    create.deploying(
+        ['minecraft:bee_spawn_egg'],
+        [Item.of('kubejs:honey_pack'), Item.of('kubejs:honey_mechanism')]
+    )
 
     create.cutting(
         [Item.of('kubejs:honey_pack', 4)],
@@ -382,4 +411,12 @@ ServerEvents.recipes(event => {
         )
     ], 16)
 
+    packs.forEach(type => {
+        create.deploying(
+            [Item.of(`productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"${type}"}]`)],
+            [Ingredient.of('kubejs:honey_mechanism'), Ingredient.of(`kubejs:honey_pack[custom_data={BeeType:"${type}"}]`)]
+        )
+    })
+
+    // 'kubejs:honey_pack[custom_data={BeeType:"productivebees:andesite_alloy"},item_name='{"color":"white","extra":[" - ",{"color":"#F3AE22","translate":"entity.productivebees.andesite_alloy_bee"}],"hoverEvent":{"action":"show_item","contents":{"components":{"minecraft:custom_data":{"BeeType":"productivebees:andesite_alloy"}},"count":1,"id":"kubejs:honey_pack"}},"translate":"chat.square_brackets","with":[{"extra":[{"translate":"item.kubejs.honey_pack"}],"text":""}]}']'
 })

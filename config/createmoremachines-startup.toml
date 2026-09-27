@@ -152,7 +152,7 @@
 		#Item capability for beyond tier mechanical[default:16384]
 		# Default: 16384
 		# Range: > 1
-		beyond_item_capability = 16384
+		beyond_item_capability = 512
 		#Fluid capability for beyond tier mechanical[default:256000]
 		# Default: 256000
 		# Range: > 1
@@ -160,15 +160,15 @@
 		#Fluid Tank capability for beyond tier mechanical[default:1024000]
 		# Default: 1024000
 		# Range: > 1
-		beyond_fluid_tank_capability = 1024000
+		beyond_fluid_tank_capability = 256000
 		#Processing multiple for beyond tier mechanical[default:256]
 		# Default: 256
 		# Range: > 1
-		beyond_processing_multiple = 256
+		beyond_processing_multiple = 64
 		#Processing multiple for beyond tier Deployer[default:32]
 		# Default: 32
 		# Range: 1 ~ 64
-		beyond_deployer_processing_multiple = 32
+		beyond_deployer_processing_multiple = 1
 		#Generated Speed for beyond tier Steam Engine[default:128]
 		# Default: 128
 		# Range: 1 ~ 256
@@ -180,11 +180,11 @@
 		#Impact needed for beyond tier mechanical press[default:2048.0]
 		# Default: 2048.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		beyond_mechanical_press_impact = 2048.0
+		beyond_mechanical_press_impact = 128.0
 		#Impact needed for beyond tier mechanical mixer[default:1024.0]
 		# Default: 1024.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		beyond_mechanical_mixer_impact = 1024.0
+		beyond_mechanical_mixer_impact = 128.0
 		#Impact needed forbeyond tier deployer[default:128.0]
 		# Default: 128.0
 		# Range: 1.0 ~ 1.7976931348623157E308
@@ -192,7 +192,7 @@
 		#Impact needed for beyond tier saw[default:512.0]
 		# Default: 512.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		beyond_saw_impact = 512.0
+		beyond_saw_impact = 128.0
 		#Inventory size for beyond tier saw[default:512]
 		# Default: 512
 		# Range: 4 ~ 4096
