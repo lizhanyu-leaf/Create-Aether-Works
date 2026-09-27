@@ -1,0 +1,757 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6279c28b74fbe5b8"
+	group: "0F6E9688F8B17385"
+	icon: {
+		id: "create:schematic_and_quill"
+	}
+	id: "6279C28B74FBE5B8"
+	images: [ ]
+	order_index: 5
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [
+		{
+			dependency: "q:dbfe91d3329d23b"
+			reveal_on_hover: 1b
+			source: "q:3116b0647aecbe7e"
+		}
+		{
+			dependency: "q:5a12ba8221b28f6"
+			reveal_on_hover: 1b
+			source: "q:1a7ce859bc962346"
+		}
+		{
+			dependency: "q:6898f458314b1055"
+			reveal_on_hover: 1b
+			source: "q:17a069f97218727b"
+		}
+		{
+			dependency: "q:309118a15aa086c5"
+			reveal_on_hover: 1b
+			source: "q:62d15eeeebef2fe7"
+		}
+		{
+			dependency: "q:26a3e9a7b548e3a"
+			reveal_on_hover: 1b
+			source: "q:36023c6346f3008b"
+		}
+		{
+			dependency: "q:716eeebe81ad9658"
+			reveal_on_hover: 1b
+			source: "q:48dbb00b5ad738bd"
+		}
+		{
+			dependency: "q:6283f37238c0a462"
+			reveal_on_hover: 1b
+			source: "q:10dcb2bfe116c93b"
+		}
+		{
+			dependency: "q:7e4b68050ad71d33"
+			reveal_on_hover: 1b
+			source: "q:7a39215f96641062"
+		}
+		{
+			dependency: "q:475aef6a333e20b0"
+			reveal_on_hover: 1b
+			source: "q:dcc861b430c4bc6"
+		}
+	]
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "5EB91FAFCC753783"
+			quest_enhance_disable_scroll_paging: false
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [
+				{
+					id: "020412708F3A7A13"
+					item: { count: 1, id: "create:mechanical_drill" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "66DA38D61F714544"
+					item: { count: 1, id: "kubejs:mobile_beehive" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EB91FAFCC753783"]
+			id: "3B6119C62D2886A8"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "00E1E63C0D10A16D"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5EB91FAFCC753783"]
+			id: "09803AA563710C2E"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "5977B0630CC622DF"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5EB91FAFCC753783"]
+			id: "40D793AA40BD1443"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "66C3DC1629640B4A"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EB91FAFCC753783"]
+			id: "2FF8302BCF7222F1"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "2C2D0DBC36D8F137"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2FF8302BCF7222F1"]
+			id: "759B803A778AB503"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "42753957F19B491B"
+				item: { count: 1, id: "create:golden_sheet" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B6119C62D2886A8"]
+			id: "05A12BA8221B28F6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7EBABDF426E5B69A"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["05A12BA8221B28F6"]
+			id: "3E8EA70993685ED2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "10C967C096514DD2"
+				item: { count: 1, id: "kubejs:incomplete_super_glue" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3E8EA70993685ED2"]
+			hide_dependent_lines: true
+			id: "31C4CDB534A123B5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4F890F7C8E3DEA0F"
+				item: { count: 1, id: "create:super_glue" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"759B803A778AB503"
+				"31C4CDB534A123B5"
+				"55C28C747642D3C7"
+				"2E65A958721956D5"
+			]
+			id: "6898F458314B1055"
+			quest_enhance_disable_scroll_paging: false
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7E635DD521FF5EF3"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			id: "55C28C747642D3C7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0B35FFC520B4CD33"
+				item: { count: 1, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5EB91FAFCC753783"]
+			id: "2E65A958721956D5"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "04469894372302C0"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E65A958721956D5"]
+			id: "61DA569E7C124E96"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3EA76979D54E83EF"
+				item: { count: 1, id: "createaddition:zinc_sheet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"61DA569E7C124E96"
+				"40D793AA40BD1443"
+			]
+			id: "026A3E9A7B548E3A"
+			quest_enhance_disable_scroll_paging: false
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4EE3B0A677735ED7"
+				item: { count: 1, id: "create:brass_hand" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"05A12BA8221B28F6"
+				"09803AA563710C2E"
+			]
+			id: "309118A15AA086C5"
+			quest_enhance_disable_scroll_paging: false
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "18DB740F479A4C2D"
+				item: { count: 1, id: "create:metal_girder" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "5921C4092285B505"
+			preset: "normal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "59EFEB38B48F65FB"
+				item: { count: 1, id: "fluidlogistics:blaze_cooler" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5921C4092285B505"]
+			id: "4DEF01272E0A521C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "544DDD18F2507BB7"
+				item: { count: 1, id: "minecraft:snow_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5921C4092285B505"
+				"4DEF01272E0A521C"
+			]
+			id: "5B668F1A0E304CA5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "53E7A9E032C2B58C"
+				item: { count: 1, id: "minecraft:powder_snow_bucket" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5921C4092285B505"
+				"5B668F1A0E304CA5"
+			]
+			id: "5F23768331BEC02C"
+			quest_enhance_disable_scroll_paging: false
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "063D32C732BEAB32"
+				item: { count: 1, id: "fluidlogistics:frost_cake" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["538C799E5E9A4782"]
+			id: "03751BBC86BC6E80"
+			quest_enhance_disable_scroll_paging: false
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6BC3145C357928B0"
+				item: { count: 1, id: "create:blaze_cake" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0DB4E25797A9C672"]
+			id: "538C799E5E9A4782"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4AFEB1D87A78AC86"
+				item: { count: 1, id: "create:blaze_cake_base" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1491D9A3F1911FFB"]
+			id: "0DB4E25797A9C672"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0A95E5BFAFBAE363"
+				item: { count: 1, id: "create:cinder_flour" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5EB91FAFCC753783"]
+			id: "1491D9A3F1911FFB"
+			preset: "normal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "516BA33D52C65DEF"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["17F345F0E7DDB498"]
+			id: "4814F2D29A4A3052"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "480ED5BBAF653AF6"
+				item: { count: 1, id: "create:copper_sheet" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5EB91FAFCC753783"]
+			id: "17F345F0E7DDB498"
+			preset: "normal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2315F7BB50B33B2B"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["17F345F0E7DDB498"]
+			id: "646A2EECE8219E5B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4475C31C50611B49"
+				item: { count: 1, id: "minecraft:lightning_rod" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"646A2EECE8219E5B"
+				"4814F2D29A4A3052"
+				"0DBFE91D3329D23B"
+			]
+			id: "3116B0647AECBE7E"
+			quest_enhance_disable_scroll_paging: false
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "06D0CA1A1263474E"
+				item: { count: 1, id: "create:transmitter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5EB91FAFCC753783"]
+			id: "0DBFE91D3329D23B"
+			preset: "normal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "043D68486E089490"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5EB91FAFCC753783"]
+			id: "53B013D891C73220"
+			preset: "normal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3CADA6C005B96A68"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"0DBFE91D3329D23B"
+				"53B013D891C73220"
+			]
+			id: "66600C5DC9D2ACB8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "575C93BBB884414D"
+				item: { count: 1, id: "create:polished_rose_quartz" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"66600C5DC9D2ACB8"
+				"05A12BA8221B28F6"
+			]
+			id: "1A7CE859BC962346"
+			quest_enhance_disable_scroll_paging: false
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4A4BBD1AD32F43A1"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"3116B0647AECBE7E"
+				"5F23768331BEC02C"
+				"1A7CE859BC962346"
+				"03751BBC86BC6E80"
+				"6C92394CCC9AA928"
+			]
+			id: "1D1016BCDBC8FD1A"
+			preset: "goal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "51051EAF78A1A403"
+				item: { count: 1, id: "kubejs:essence_mechanism" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			id: "519A5CE1AD9CCE2A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0DE9EC981AEDED7F"
+				item: { count: 1, id: "kubejs:natural_essence" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			id: "09A5B4CC846AA8F2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "34E690B9BECC5D42"
+				item: { count: 1, id: "kubejs:slime_essence" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			id: "33B1610F524D48C9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "70387FBF868FE9FD"
+				item: { count: 1, id: "kubejs:sturdy_essence" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			id: "185B30F561E19B82"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6F5DAA9FA9BC8170"
+				item: { count: 1, id: "kubejs:water_essence" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			id: "7BEDCCBA9B85F5CC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2E6774E4B6A47DFC"
+				item: { count: 1, id: "kubejs:blaze_essence" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["026A3E9A7B548E3A"]
+			id: "36023C6346F3008B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2013A77130E2220E"
+				item: { count: 1, id: "kubejs:smart_essence" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6898F458314B1055"]
+			id: "17A069F97218727B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2E790CB728E543CD"
+				item: { count: 1, id: "kubejs:precision_essence" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["309118A15AA086C5"]
+			id: "62D15EEEEBEF2FE7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "50929D76C4B2EFC6"
+				item: { count: 1, id: "kubejs:iron_essence" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			id: "6A110C696AAD598A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "7B3915882F7652AD"
+					item: { count: 1, id: "kubejs:wood_set" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53E35CA4FA102D17"
+					item: { count: 1, id: "kubejs:stone_set" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"09A5B4CC846AA8F2"
+				"62D15EEEEBEF2FE7"
+				"36023C6346F3008B"
+				"17A069F97218727B"
+				"33B1610F524D48C9"
+				"519A5CE1AD9CCE2A"
+				"185B30F561E19B82"
+				"7BEDCCBA9B85F5CC"
+				"6A110C696AAD598A"
+			]
+			id: "5DB89E2B3B3779FC"
+			preset: "goal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5E8CE7B51CFDA28B"
+				item: { count: 1, id: "kubejs:essence_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DB89E2B3B3779FC"]
+			id: "6C92394CCC9AA928"
+			preset: "goal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "55711BECCCA93C01"
+				item: { count: 1, id: "kubejs:incomplete_essence_mechanism_2" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["475AEF6A333E20B0"]
+			id: "0DCC861B430C4BC6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "720B731B48813696"
+				item: { count: 1, id: "mekanism:basic_tier_installer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7E4B68050AD71D33"]
+			id: "7A39215F96641062"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7E46994112BE5EC3"
+				item: { count: 1, id: "mekanism:advanced_tier_installer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6283F37238C0A462"]
+			id: "10DCB2BFE116C93B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6AECE1014C4263CB"
+				item: { count: 1, id: "mekanism:elite_tier_installer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["716EEEBE81AD9658"]
+			id: "48DBB00B5AD738BD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "757E263CE772A54B"
+				item: { count: 1, id: "mekanism:ultimate_tier_installer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -12.5d
+		}
+		{
+			id: "475AEF6A333E20B0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "476ED56F81A509E3"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["475AEF6A333E20B0"]
+			id: "7E4B68050AD71D33"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4D1495BEC97314CD"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7E4B68050AD71D33"]
+			id: "6283F37238C0A462"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "254912149F9A028A"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6283F37238C0A462"]
+			id: "716EEEBE81AD9658"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7C5540F13195CD4B"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.5d
+		}
+	]
+}

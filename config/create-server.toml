@@ -374,7 +374,7 @@
 	#The minimum amount of fluid blocks the hose pulley needs to find before deeming it an infinite source.
 	# Default: 10000
 	# Range: > -1
-	hosePulleyBlockThreshold = 10000
+	hosePulleyBlockThreshold = 2
 	#.
 	#Whether hose pulleys should continue filling up above-threshold sources.
 	fillInfinite = false

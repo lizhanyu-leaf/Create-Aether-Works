@@ -205,6 +205,11 @@ ServerEvents.recipes(event => {
     })
 
     mekanism.chemical_conversion(
+        "80x mekanism:redstone",
+        "minecraft:redstone"
+    )
+
+    mekanism.chemical_conversion(
         "1000x kubejs:bedrock",
         "minecraft:bedrock"
     )
@@ -212,6 +217,16 @@ ServerEvents.recipes(event => {
     mekanism.chemical_conversion(
         "400x kubejs:bedrock",
         "kubejs:bedrock_powder"
+    )
+
+    mekanism.chemical_conversion(
+        "20x kubejs:slime",
+        "minecraft:slime_ball"
+    )
+
+    mekanism.chemical_conversion(
+        "200x kubejs:slime",
+        "minecraft:slime_block"
     )
 
     event.findRecipes({type: "createaddition:rolling"}).forEach(kubeRecipe => {
@@ -235,22 +250,45 @@ ServerEvents.recipes(event => {
         })
     })
 
+    // '#create:sandpaper'
+
+    event.findRecipes({type: 'create:sandpaper_polishing'}).forEach(kubeRecipe => {
+        let inputs = kubeRecipe.getOriginalRecipeIngredients()
+        let output = kubeRecipe.getOriginalRecipeResult()
+
+        event.custom({
+            "type": "mekmm:stamper",
+            "input": {
+                "count": inputs.getFirst().getFirst().getCount(),
+                "item": inputs.getFirst().getFirst().getId()
+            },
+            "mold": {
+                "count": 1,
+                "tag": 'create:sandpaper'
+            },
+            "output": {
+                "count": output.getCount(),
+                "id": output.getId()
+            }
+        })
+    })
+
     event.custom({
         "type": "mekmm:pressing",
         "primary_input": {
-            "count": 2,
+            "count": 3,
             "tag": "c:plates/brass"
         },
         "secondary_input": {
-            "count": 2,
+            "count": 3,
             "tag": "c:plates/gold"
         },
         "tertiary_input": {
-            "count": 3,
+            "count": 5,
             "item": "create:cogwheel"
         },
         "output": {
-            "count": 2,
+            "count": 1,
             "id": "create:precision_mechanism"
         }
     })
@@ -258,20 +296,60 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "mekmm:pressing",
         "primary_input": {
-            "count": 2,
-            "item": "create:powdered_obsidian"
+            "count": 3,
+            "tag": "c:nuggets/brass"
         },
         "secondary_input": {
-            "count": 2,
-            "item": "kubejs:bedrock_sheet"
+            "count": 3,
+            "tag": "c:ingots/brass"
         },
         "tertiary_input": {
-            "count": 3,
-            "item": "minecraft:reinforced_deepslate"
+            "count": 5,
+            "tag": "c:plates/zinc"
         },
         "output": {
             "count": 2,
+            "id": "create:brass_hand"
+        }
+    })
+
+    event.custom({
+        "type": "mekmm:pressing",
+        "primary_input": {
+            "count": 3,
+            "item": "create:powdered_obsidian"
+        },
+        "secondary_input": {
+            "count": 3,
+            "item": "kubejs:bedrock_sheet"
+        },
+        "tertiary_input": {
+            "count": 5,
+            "item": "minecraft:reinforced_deepslate"
+        },
+        "output": {
+            "count": 1,
             "id": "kubejs:bedrock_mechanism"
+        }
+    })
+
+    event.custom({
+        "type": "mekmm:pressing",
+        "primary_input": {
+            "count": 3,
+            "item": "minecraft:lightning_rod"
+        },
+        "secondary_input": {
+            "count": 5,
+            "item": "create:copper_sheet"
+        },
+        "tertiary_input": {
+            "count": 3,
+            "item": "minecraft:redstone"
+        },
+        "output": {
+            "count": 1,
+            "id": "create:transmitter"
         }
     })
 
@@ -315,6 +393,30 @@ ServerEvents.recipes(event => {
         "240x mekanism:redstone", false
     )
 
+    mekanism.combining(
+        Item.of('create:rose_quartz', 1),
+        Item.of('minecraft:quartz', 12),
+        Item.of('minecraft:redstone', 6)
+    )
+
+    mekanism.combining(
+        Item.of('kubejs:incomplete_super_glue', 2),
+        Item.of('minecraft:iron_nugget', 2),
+        Item.of('create:iron_sheet', 3)
+    )
+
+    mekanism.combining(
+        Item.of('create:electron_tube', 2),
+        Item.of('create:polished_rose_quartz', 2),
+        Item.of('create:iron_sheet', 3)
+    )
+
+    mekanism.metallurgic_infusing(
+        Item.of('create:super_glue'),
+        Item.of('kubejs:incomplete_super_glue'),
+        "100x kubejs:slime", false
+    )
+
     mekanism.metallurgic_infusing(
         Item.of("mekanism:alloy_infused"),
         Item.of("create:andesite_alloy"),
@@ -341,6 +443,16 @@ ServerEvents.recipes(event => {
     lvlUp('mekanism:alloy_infused', 'mekanism:basic_control_circuit', 'mekanism:advanced_control_circuit')
     lvlUp('mekanism:alloy_reinforced', 'mekanism:advanced_control_circuit', 'mekanism:elite_control_circuit')
     lvlUp('mekanism:alloy_atomic', 'mekanism:elite_control_circuit', 'mekanism:ultimate_control_circuit')
+
+    create.deploying(
+        Item.of('mekanism:upgrade_speed'),
+        [Item.of('mekanism:advanced_control_circuit'), Item.of('minecraft:feather')],
+    )
+
+    create.deploying(
+        Item.of('mekanism:upgrade_energy'),
+        [Item.of('mekanism:advanced_control_circuit'), Item.of('createaddition:capacitor')],
+    )
 
     event.shaped(
         "mekanism:basic_tier_installer",

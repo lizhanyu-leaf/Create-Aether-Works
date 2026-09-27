@@ -32,6 +32,8 @@ addMobileBeehive('minecraft:slime_block', 'productivebees:slimy', 1.0)
 addMobileBeehive('minecraft:blaze_powder', 'productivebees:blazing', 1.0)
 addMobileBeehive('#minecraft:flowers', 'minecraft:bee', 1.0)
 addMobileBeehive('create:andesite_alloy_block', 'productivebees:andesite_alloy', 1.0)
+addMobileBeehive('minecraft:redstone_block', 'productivebees:redstone', 1.0)
+addMobileBeehive('minecraft:quartz_block', 'productivebees:crystalline', 1.0)
 
 addCombBlockDrop('productivebees:brass', [
     { id: 'create:brass_ingot', count: 2, chance: 1.0 },
@@ -81,4 +83,14 @@ addCombBlockDrop('productivebees:blazing', [
     { id: 'minecraft:blaze_rod', count: 3, chance: 1.0 },
     { id: 'minecraft:blaze_powder', count: 3, chance: 0.2 },
     { id: 'minecraft:blaze_rod', count: 3, chance: 0.2 }
+], 1.0, true)
+addCombBlockDrop('productivebees:redstone', [
+    { id: 'minecraft:redstone_block', count: 2, chance: 1.0 },
+    { id: 'minecraft:redstone_block', count: 2, chance: 0.2 },
+    { id: 'minecraft:redstone', count: 6, chance: 0.5 }
+], 1.0, true)
+addCombBlockDrop('productivebees:crystalline', [
+    { id: 'minecraft:quartz_block', count: 2, chance: 1.0 },
+    { id: 'minecraft:quartz_block', count: 2, chance: 0.2 },
+    { id: 'minecraft:quartz', count: 6, chance: 0.5 }
 ], 1.0, true)

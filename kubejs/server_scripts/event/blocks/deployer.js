@@ -60,13 +60,13 @@ KJSCAutoEvents.deployerUse(event => {
         // ✅ 去掉引号并替换冒号
         let cleanId = beeId.replace(/"/g, '').replace(':', '.')
         let beeKey = 'entity.' + cleanId
-        if (beeId !== 'minecraft:bee') beeKey += '_bee'
+        if (beeId != '"minecraft:bee"') beeKey += '_bee'
         
         output.update('minecraft:lore', [], c => 
             c.withLineAdded(
                 Component.literal(' §7- §f')
-                    .append(Component.translate(beeKey))
-                    .append(Component.literal(' §7x§e' + count))
+                    .append(Component.translate(beeKey).withColor(0xffff11))
+                    .append(Component.literal(' §7x').append(Component.literal(count).withColor(0xffdf00)))
             )
         )
     }
@@ -232,6 +232,14 @@ ServerEvents.recipes(event => {
         [item],
         [Item.of('kubejs:honey_mechanism'), Item.of('kubejs:honey_pack')]
     )
+})
+
+KJSCAutoEvents.deployerUse(event => {
+    const { block, level, heldItem, outputs, transportedItem, server } = event
+
+    if (heldItem.id == 'kubejs:cloud_paxel') {
+        heldItem.setDamageValue(0)
+    }
 })
 
 BlockEvents.rightClicked(event => {

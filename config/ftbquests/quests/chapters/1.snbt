@@ -12,6 +12,7 @@
 			height: 1.5d
 			id: "0832F93FF5C654F2"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: -1.0d
@@ -21,6 +22,7 @@
 			height: 1.5d
 			id: "326B4A45AC9717AC"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 1.0d
@@ -30,6 +32,7 @@
 			height: 1.5d
 			id: "48C0942EB3D67AEA"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 3.0d
@@ -39,6 +42,7 @@
 			height: 1.5d
 			id: "344A77111B944BD4"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: -3.0d
@@ -48,6 +52,7 @@
 			height: 1.5d
 			id: "057B3046A66EBD84"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: -3.0d
@@ -57,6 +62,7 @@
 			height: 1.5d
 			id: "76761AA87799C5F6"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: -1.0d
@@ -66,6 +72,7 @@
 			height: 1.5d
 			id: "5C8783547098B2D7"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 1.0d
@@ -75,6 +82,7 @@
 			height: 1.5d
 			id: "68500450754A9F7F"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 3.0d
@@ -84,6 +92,7 @@
 			height: 1.5d
 			id: "1075BF8EA3FC3471"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 7.5d
@@ -93,6 +102,7 @@
 			height: 1.5d
 			id: "589620C21E120DFB"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 9.5d
@@ -102,6 +112,7 @@
 			height: 1.5d
 			id: "6821253DE19391D7"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 11.5d
@@ -111,6 +122,7 @@
 			height: 1.5d
 			id: "237ED6AA1594EA5D"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 13.5d
@@ -120,6 +132,7 @@
 			height: 1.5d
 			id: "387B47D41D692B9A"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 11.5d
@@ -129,6 +142,7 @@
 			height: 1.5d
 			id: "47E6C3D6A916BA39"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 13.5d
@@ -138,6 +152,7 @@
 			height: 1.5d
 			id: "0E19A48ADC869F50"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 9.5d
@@ -147,6 +162,7 @@
 			height: 1.5d
 			id: "351EB7CB13E6F5DC"
 			image: "create_item_drawers:block/single_slot"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: 7.5d
@@ -156,6 +172,7 @@
 			height: 1.5d
 			id: "46953D9F7AABA3F6"
 			image: "minecraft:block/dripstone_block"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: -6.5d
@@ -165,6 +182,7 @@
 			height: 1.5d
 			id: "42F6D175081A611E"
 			image: "minecraft:block/dripstone_block"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: -6.5d
@@ -174,6 +192,7 @@
 			height: 1.5d
 			id: "4F3B0F241416D1FD"
 			image: "minecraft:block/moss_block"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: -8.5d
@@ -183,6 +202,7 @@
 			height: 1.5d
 			id: "38A2B1A7C8F39A50"
 			image: "minecraft:block/moss_block"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: -8.5d
@@ -192,6 +212,7 @@
 			height: 1.5d
 			id: "6AA5440282AD04C1"
 			image: "minecraft:block/moss_block"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: -10.5d
@@ -201,17 +222,21 @@
 			height: 1.5d
 			id: "646AB067C93F3C8D"
 			image: "minecraft:block/moss_block"
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.5d
 			x: -10.5d
 			y: -13.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
 			id: "4B054BC0375888DD"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 128
 				id: "7794B14932BC0359"
@@ -232,6 +257,7 @@
 		{
 			dependencies: ["4B054BC0375888DD"]
 			id: "292FFA0FA4BA5559"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				id: "55DF21DDB99F011B"
@@ -253,6 +279,7 @@
 			dependencies: ["292FFA0FA4BA5559"]
 			hide_dependent_lines: true
 			id: "25C7154F1790064F"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "40C682DC23A14420"
@@ -274,6 +301,7 @@
 			dependencies: ["25C7154F1790064F"]
 			hide_dependent_lines: true
 			id: "71A5C57CB0B77B0D"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 32
@@ -312,6 +340,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "606CB39939BE9FB6"
+					item: {
+						count: 1
+						id: "fluidlogistics:hand_pointer"
+					}
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 2.0d
@@ -326,6 +362,7 @@
 		{
 			dependencies: ["71A5C57CB0B77B0D"]
 			id: "068874196D3E427C"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "2962932F69F4DA4E"
@@ -356,6 +393,7 @@
 		{
 			dependencies: ["71A5C57CB0B77B0D"]
 			id: "5AD41D0CE2FB23D1"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "63AA9D58B25EA9DC"
@@ -376,6 +414,7 @@
 		{
 			dependencies: ["71A5C57CB0B77B0D"]
 			id: "54B242273970D01B"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "07AA0A07155E15F9"
@@ -396,6 +435,7 @@
 		{
 			dependencies: ["71A5C57CB0B77B0D"]
 			id: "1EF55AF6C4EBDC12"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "2A55778CA9D571A5"
@@ -416,6 +456,7 @@
 		{
 			dependencies: ["71A5C57CB0B77B0D"]
 			id: "7AD916909A5ADE05"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "02098A83561649CA"
@@ -436,6 +477,7 @@
 		{
 			dependencies: ["71A5C57CB0B77B0D"]
 			id: "3B14B8083F8736A6"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "452D09C1746CAAA0"
@@ -456,6 +498,7 @@
 		{
 			dependencies: ["71A5C57CB0B77B0D"]
 			id: "364AC1533791E565"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "43FF31E177465519"
@@ -476,6 +519,7 @@
 		{
 			dependencies: ["71A5C57CB0B77B0D"]
 			id: "3127A9FC733AD73B"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "1B2E24BAB3D260DB"
@@ -496,6 +540,7 @@
 		{
 			dependencies: ["71A5C57CB0B77B0D"]
 			id: "0574C98A929E994E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "27A0A1F26DFB2D12"
@@ -515,6 +560,7 @@
 			dependencies: ["068874196D3E427C"]
 			hide_dependent_lines: true
 			id: "008A48F9EFCA2BF0"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 8
 				id: "39B1FC9318E4514F"
@@ -542,6 +588,7 @@
 		{
 			dependencies: ["008A48F9EFCA2BF0"]
 			id: "46FAED39B7BA522A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "77FDDF6277550754"
 				item: { count: 1, id: "minecraft:cobblestone" }
@@ -553,6 +600,7 @@
 		{
 			dependencies: ["008A48F9EFCA2BF0"]
 			id: "1627E8CF962A96CA"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				id: "3EF1B5E29354F97B"
@@ -573,6 +621,7 @@
 		{
 			dependencies: ["008A48F9EFCA2BF0"]
 			id: "42F2022EF47A0631"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				id: "00359032FD38B752"
@@ -593,6 +642,7 @@
 		{
 			dependencies: ["008A48F9EFCA2BF0"]
 			id: "41CC964F976308BE"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				id: "35205F871336D7EB"
@@ -613,6 +663,7 @@
 		{
 			dependencies: ["008A48F9EFCA2BF0"]
 			id: "2A5D54FE70065653"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 4
 				id: "13EB7B828CD68F5A"
@@ -633,6 +684,7 @@
 		{
 			dependencies: ["008A48F9EFCA2BF0"]
 			id: "037E1310C286862A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "51833B6F53DD2F14"
 				item: { count: 1, id: "minecraft:string" }
@@ -644,6 +696,7 @@
 		{
 			dependencies: ["008A48F9EFCA2BF0"]
 			id: "3CEBD39BBD0CF415"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "78F5E676B2063E2D"
 				item: { count: 1, id: "minecraft:feather" }
@@ -655,6 +708,7 @@
 		{
 			dependencies: ["008A48F9EFCA2BF0"]
 			id: "29B3820F3FB52C8F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6B1C7C6700E32E79"
 				item: { count: 1, id: "minecraft:clay_ball" }
@@ -665,6 +719,7 @@
 		}
 		{
 			id: "21AFE73C7CC45DD7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "095A3BF185F33C0F"
 				item: { count: 1, id: "minecraft:iron_nugget" }
@@ -676,6 +731,7 @@
 		{
 			dependencies: ["21AFE73C7CC45DD7"]
 			id: "048BC82414FB5E25"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1FF638FB6738969E"
 				item: { count: 1, id: "minecraft:iron_ingot" }
@@ -687,6 +743,7 @@
 		{
 			dependencies: ["048BC82414FB5E25"]
 			id: "2C26166F0C3A40FE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "625A4995F54AA4F0"
 				item: { count: 1, id: "minecraft:bucket" }
@@ -698,6 +755,7 @@
 		{
 			dependencies: ["2C26166F0C3A40FE"]
 			id: "76FA065D0CA7B6E9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "188E0CCF0916B04B"
@@ -716,6 +774,7 @@
 		{
 			dependencies: ["76FA065D0CA7B6E9"]
 			id: "3539EA01E5D5BF48"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "76DDADCF31CDB4D3"
 				item: {
@@ -735,6 +794,7 @@
 		{
 			dependencies: ["2C26166F0C3A40FE"]
 			id: "5856EC3A5DD1A3F5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "73F6385D7D148DB2"
 				item: { count: 1, id: "minecraft:oak_sapling" }
@@ -746,6 +806,7 @@
 		{
 			dependencies: ["5856EC3A5DD1A3F5"]
 			id: "48EC88B4B8B2BF33"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "2865C135E2CA5173"
@@ -779,6 +840,7 @@
 				"48EC88B4B8B2BF33"
 			]
 			id: "79F74D5201EB4FA7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "24A26DF2B5A48117"
 				item: { count: 1, id: "minecraft:obsidian" }
@@ -789,6 +851,7 @@
 		}
 		{
 			id: "7B3E46204258BBA2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1DA2DB1DCB4C69E4"
 				item: { count: 1, id: "minecraft:copper_ingot" }
@@ -800,6 +863,7 @@
 		{
 			dependencies: ["7B3E46204258BBA2"]
 			id: "3DC83C06FB3C34A3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "379FF0464C460573"
 				item: { count: 1, id: "create:copper_casing" }
@@ -811,6 +875,7 @@
 		{
 			dependencies: ["3DC83C06FB3C34A3"]
 			id: "3720DD4CA0ED3FD5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "18E8CD7D73AF67D1"
 				item: { count: 1, id: "create:fluid_tank" }
@@ -822,6 +887,7 @@
 		{
 			dependencies: ["3DC83C06FB3C34A3"]
 			id: "4B1CC43BA2CD2468"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "02FC3C18569643D6"
 				item: { count: 1, id: "create:fluid_pipe" }
@@ -833,6 +899,7 @@
 		{
 			dependencies: ["3DC83C06FB3C34A3"]
 			id: "16429D38E04EACE1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1C92EAC5F3FE4F7E"
 				item: { count: 1, id: "create:spout" }
@@ -844,6 +911,7 @@
 		{
 			dependencies: ["3539EA01E5D5BF48"]
 			id: "063672EB0B855E38"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "20817F4DF542ED6C"
@@ -863,6 +931,7 @@
 			dependencies: ["063672EB0B855E38"]
 			hide_dependent_lines: true
 			id: "3F8D9D239DECC72F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "33E191CE11F1525B"
 				item: { count: 1, id: "minecraft:netherrack" }
@@ -874,6 +943,7 @@
 		{
 			dependencies: ["3F8D9D239DECC72F"]
 			id: "22E609C30C4BB381"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2ADB55FD127C8587"
 				item: { count: 1, id: "create:empty_blaze_burner" }
@@ -885,6 +955,7 @@
 		{
 			dependencies: ["22E609C30C4BB381"]
 			id: "2F13BEC2F6E7BEDA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7E160A2E558CDEEA"
 				item: { count: 1, id: "create:blaze_burner" }
@@ -896,6 +967,7 @@
 		{
 			dependencies: ["48EC88B4B8B2BF33"]
 			id: "2756E069705B5EAB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "34345330A1843AB3"
 				item: { count: 1, id: "minecraft:grass_block" }
@@ -907,6 +979,7 @@
 		{
 			dependencies: ["2F13BEC2F6E7BEDA"]
 			id: "5CA31653B70972AA"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 32
 				id: "5606FEB543007B0E"
@@ -928,6 +1001,7 @@
 			dependencies: ["5CA31653B70972AA"]
 			hide_dependent_lines: true
 			id: "2F635425818866B3"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 256
 				id: "69A4C888B0A45497"
@@ -951,6 +1025,7 @@
 				"3684C1828B80AC2A"
 			]
 			id: "4253E38C109B3D7D"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 256
 				id: "28E486AB411E1E84"
@@ -974,6 +1049,7 @@
 				"3684C1828B80AC2A"
 			]
 			id: "60E57BA4760F3B67"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "3CA02D7F64724D4B"
@@ -994,6 +1070,7 @@
 		{
 			dependencies: ["2F635425818866B3"]
 			id: "420F17E83B534108"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "55CC2B6CB73DCD5C"
@@ -1017,6 +1094,7 @@
 				"3684C1828B80AC2A"
 			]
 			id: "0CEE0A25D86443D3"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "3EF4FB450F979C44"
@@ -1040,6 +1118,7 @@
 				"3684C1828B80AC2A"
 			]
 			id: "176131E072A189B2"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "31BFE5CFFBE3E9C1"
@@ -1063,6 +1142,7 @@
 				"3684C1828B80AC2A"
 			]
 			id: "6C19E146AE04DE74"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "71D5F5316B6A13F1"
@@ -1083,6 +1163,7 @@
 		{
 			dependencies: ["3F8D9D239DECC72F"]
 			id: "0D837BECACED7F68"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "574DD23EEFC15EC9"
 				item: { count: 1, id: "create:cinder_flour" }
@@ -1094,6 +1175,7 @@
 		{
 			dependencies: ["3F8D9D239DECC72F"]
 			id: "69FD3FB6ED90F1DA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "69EFCA2D520E6D11"
 				item: { count: 1, id: "minecraft:crimson_fungus" }
@@ -1105,6 +1187,7 @@
 		{
 			dependencies: ["3F8D9D239DECC72F"]
 			id: "0B408A15FEC2F84B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0161F7C0078A4715"
 				item: { count: 1, id: "minecraft:nether_wart" }
@@ -1116,6 +1199,7 @@
 		{
 			dependencies: ["3F8D9D239DECC72F"]
 			id: "2688359B5002E34E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "244961E985E13299"
 				item: { count: 1, id: "minecraft:bone" }
@@ -1127,6 +1211,7 @@
 		{
 			dependencies: ["3F8D9D239DECC72F"]
 			id: "5427E406E63EE022"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "31DE813AC852F3DA"
 				item: { count: 1, id: "minecraft:blaze_powder" }
@@ -1138,6 +1223,7 @@
 		{
 			dependencies: ["3F8D9D239DECC72F"]
 			id: "3A9DA77BEB93C1D3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6EA20BB9CF5D7F18"
 				item: { count: 1, id: "minecraft:gold_nugget" }
@@ -1150,6 +1236,7 @@
 			dependencies: ["3F8D9D239DECC72F"]
 			hide_dependent_lines: true
 			id: "34B7F5F091156025"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1FD878EFFB1C259D"
 				item: { count: 1, id: "minecraft:redstone" }
@@ -1162,6 +1249,7 @@
 			dependencies: ["3F8D9D239DECC72F"]
 			hide_dependent_lines: true
 			id: "52BC00B5C85E020B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3270C3FCA7BD63AA"
 				item: { count: 1, id: "minecraft:quartz" }
@@ -1176,6 +1264,7 @@
 				"52BC00B5C85E020B"
 			]
 			id: "1A2B0727DBC3B768"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "370A430A90F4D0FB"
 				item: { count: 1, id: "create:rose_quartz" }
@@ -1187,6 +1276,7 @@
 		{
 			dependencies: ["1A2B0727DBC3B768"]
 			id: "3F91DEF4D637344C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5ED875352DA664A2"
 				item: { count: 1, id: "create:polished_rose_quartz" }
@@ -1199,6 +1289,7 @@
 			dependencies: ["3F91DEF4D637344C"]
 			hide_dependent_lines: true
 			id: "3684C1828B80AC2A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "05AC4059682F7EA1"
 				item: { count: 1, id: "create:electron_tube" }
@@ -1210,6 +1301,7 @@
 		{
 			dependencies: ["10465DC05089FB79"]
 			id: "18568BE491FBA521"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "51C430CCDC807C4B"
 				item: { count: 1, id: "minecraft:pointed_dripstone" }
@@ -1221,6 +1313,7 @@
 		{
 			dependencies: ["10465DC05089FB79"]
 			id: "359569DB7F63FF10"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "77FC13FEC2E9144E"
 				item: { count: 1, id: "minecraft:brown_mushroom" }
@@ -1232,6 +1325,7 @@
 		{
 			dependencies: ["10465DC05089FB79"]
 			id: "6122902F654FD904"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7CA43EBA28336480"
 				item: { count: 1, id: "minecraft:bamboo" }
@@ -1243,6 +1337,7 @@
 		{
 			dependencies: ["10465DC05089FB79"]
 			id: "4E5035BFE0C4BD94"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "57219BAC344541EA"
 				item: { count: 1, id: "minecraft:sugar_cane" }
@@ -1254,6 +1349,7 @@
 		{
 			dependencies: ["10465DC05089FB79"]
 			id: "7DE71751876BE8D1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0F5F4C525EFC6E67"
 				item: { count: 1, id: "minecraft:kelp" }
@@ -1265,6 +1361,7 @@
 		{
 			dependencies: ["10465DC05089FB79"]
 			id: "7D2F25E0F965756C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "79E62109FD52179C"
 				item: { count: 1, id: "minecraft:moss_block" }
@@ -1276,6 +1373,7 @@
 		{
 			hide_dependent_lines: true
 			id: "10465DC05089FB79"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 32
 				id: "743FC089EBA26EC1"
@@ -1296,6 +1394,7 @@
 		{
 			dependencies: ["4E5035BFE0C4BD94"]
 			id: "39D778F13554F3EB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "69595C464F784027"
 				item: { count: 1, id: "minecraft:paper" }
@@ -1307,6 +1406,7 @@
 		{
 			dependencies: ["7DE71751876BE8D1"]
 			id: "52357E941199AC9D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "28F209523F875C3F"
 				item: { count: 1, id: "minecraft:dried_kelp" }
@@ -1318,6 +1418,7 @@
 		{
 			dependencies: ["52357E941199AC9D"]
 			id: "463DB0EE1AE12164"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7C386ADB08840A21"
 				item: { count: 1, id: "create:andesite_tunnel" }
@@ -1329,6 +1430,7 @@
 		{
 			dependencies: ["463DB0EE1AE12164"]
 			id: "790151911DE57540"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6227DFF16D9D96DA"
 				item: { count: 1, id: "create:brass_tunnel" }
@@ -1340,6 +1442,7 @@
 		{
 			dependencies: ["52357E941199AC9D"]
 			id: "12AF814EFB90958A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "60C206C4A6FA40B0"
 				item: { count: 1, id: "create:andesite_funnel" }
@@ -1351,6 +1454,7 @@
 		{
 			dependencies: ["12AF814EFB90958A"]
 			id: "50215CABB47D9EC1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2A7A601C8917DA05"
 				item: { count: 1, id: "create:brass_funnel" }

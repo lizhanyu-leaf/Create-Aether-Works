@@ -31,7 +31,9 @@ BlockEvents.rightClicked('minecraft:dirt', event => {
 
     item.setDamageValue(item.getDamageValue() + 1)
     if (item.getDamageValue() >= item.getMaxDamage()) item.setCount(item.getCount() - 1)
-    player.addItemCooldown(item.getItem(), 5)
+    let cooldown = 5;
+    if (item.hasTag('kubejs:dirt/fast')) cooldown = 2;
+    player.addItemCooldown(item.getItem(), cooldown)
 })
 
 FTBQuestsEvents.customTask('67CA44088136E4BB', event => {

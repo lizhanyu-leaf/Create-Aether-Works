@@ -1,0 +1,508 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1cdb051930e68f87"
+	group: ""
+	icon: {
+		id: "create:creative_blaze_cake"
+	}
+	id: "1CDB051930E68F87"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1B79016A04FF621C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 128
+				id: "59996B71D1D54EAB"
+				item: {
+					count: 1
+					id: "minecraft:feather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31DCDB5A10F5E2A0"
+				item: { count: 1, id: "mekanism:creative_bin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B79016A04FF621C"]
+			icon: {
+				id: "kubejs:smart_mechine_set"
+			}
+			id: "2A711014C6884926"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "4E37E50DB2051D2A"
+					item: {
+						components: {
+							"mekanism:items": {
+								items: [{
+									count: 2147483647
+									id: "kubejs:fluid_set"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_bin"
+					}
+					type: "item"
+				}
+				{
+					id: "20DFBF4A002F6DE2"
+					item: {
+						components: {
+							"mekanism:items": {
+								items: [{
+									count: 2147483647
+									id: "kubejs:gearbox_set"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_bin"
+					}
+					type: "item"
+				}
+				{
+					id: "22BDE265E20A2466"
+					item: {
+						components: {
+							"mekanism:items": {
+								items: [{
+									count: 2147483647
+									id: "kubejs:smart_mechine_set"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_bin"
+					}
+					type: "item"
+				}
+				{
+					id: "651EF1DAA1196ED0"
+					item: {
+						components: {
+							"mekanism:items": {
+								items: [{
+									count: 2147483647
+									id: "kubejs:basic_mechine_set"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_bin"
+					}
+					type: "item"
+				}
+				{
+					id: "3356EB57DD58BF8B"
+					item: {
+						components: {
+							"mekanism:items": {
+								items: [{
+									count: 2147483647
+									id: "kubejs:stone_set"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_bin"
+					}
+					type: "item"
+				}
+				{
+					id: "61185EB03FC91950"
+					item: {
+						components: {
+							"mekanism:items": {
+								items: [{
+									count: 2147483647
+									id: "kubejs:wood_set"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_bin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "688A4430606D839D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FC60112245FDE4C"]
+			id: "494AE3367F061D3E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "0F24BDEA6A753A93"
+				item: {
+					components: {
+						"mekanism:items": {
+							items: [{
+								count: 2147483647
+								id: "create:precision_mechanism"
+							}]
+						}
+					}
+					count: 1
+					id: "mekanism:creative_bin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B795513389235E8"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45482E06094B3C3F"]
+			id: "7488625BF6349AFF"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "26A7138E3E84D8C1"
+				item: {
+					components: {
+						"mekanism:items": {
+							items: [{
+								count: 2147483647
+								id: "productivebees:bee_cage"
+							}]
+						}
+					}
+					count: 1
+					id: "mekanism:creative_bin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "207F13A45E75CA73"
+				item: { count: 1, id: "productivebees:bee_cage" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FC60112245FDE4C"]
+			id: "28E7BB14CA30A7D5"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "1680DC7FA83E29B6"
+					item: {
+						components: {
+							"mekanism:items": {
+								items: [{
+									count: 2147483647
+									id: "fluidlogistics:blaze_cooler"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_bin"
+					}
+					type: "item"
+				}
+				{
+					id: "206320A67AD39C08"
+					item: {
+						components: {
+							"mekanism:items": {
+								items: [{
+									count: 2147483647
+									id: "create:blaze_burner"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_bin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3175DF2665E76A7B"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "3526A6D78F601A95"
+					item: { count: 1, id: "fluidlogistics:blaze_cooler" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45482E06094B3C3F"]
+			id: "4834247D88AFEE0E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "07BBF35F26413B2B"
+				item: {
+					components: {
+						"mekanism:items": {
+							items: [{
+								count: 2147483647
+								id: "createaddition:diamond_grit_sandpaper"
+							}]
+						}
+					}
+					count: 1
+					id: "mekanism:creative_bin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2970F405A7A7EFF6"
+				item: { count: 1, id: "create:red_sand_paper" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "create:wrench"
+			}
+			id: "45482E06094B3C3F"
+			preset: "normal"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "5BC418CB6BC4569E"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45482E06094B3C3F"]
+			id: "50FDABC61EAD24E4"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "05C68C31B0850801"
+				item: {
+					components: {
+						"mekanism:items": {
+							items: [{
+								count: 2147483647
+								id: "createdieselgenerators:hammer"
+							}]
+						}
+					}
+					count: 1
+					id: "mekanism:creative_bin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58C5EEABB02BE0AF"
+				item: { count: 1, id: "createdieselgenerators:hammer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45482E06094B3C3F"]
+			id: "7490E62BB6404C3B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "5F133C82D0B595FE"
+				item: {
+					components: {
+						"mekanism:items": {
+							items: [{
+								count: 2147483647
+								id: "create:super_glue"
+							}]
+						}
+					}
+					count: 1
+					id: "mekanism:creative_bin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F245DD286FB703C"
+				item: { count: 1, id: "create:super_glue" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "create:electron_tube"
+			}
+			id: "2FC60112245FDE4C"
+			preset: "normal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "50D3569C06C3F08B"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2FC60112245FDE4C"]
+			icon: {
+				id: "fluidlogistics:infinite_fluid_tank"
+			}
+			id: "4699C8D1C9EA5F8C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "4E10FBAF89174C01"
+				item: {
+					components: {
+						"mekanism:items": {
+							items: [{
+								count: 2147483647
+								id: "fluidlogistics:infinite_fluid_tank"
+							}]
+						}
+					}
+					count: 1
+					id: "mekanism:creative_bin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62BCDD9301E364EC"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FC60112245FDE4C"]
+			id: "2A895AA6B0A9367C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "1A3A594A16567CE3"
+				item: {
+					components: {
+						"mekanism:items": {
+							items: [{
+								count: 2147483647
+								id: "create:brass_casing"
+							}]
+						}
+					}
+					count: 1
+					id: "mekanism:creative_bin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "786CC9238A39E95C"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FC60112245FDE4C"]
+			id: "3296126C21F4AB31"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "0D6ED5368C6D9FE9"
+					item: {
+						components: {
+							"mekanism:items": {
+								items: [{
+									count: 2147483647
+									id: "minecraft:chain"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_bin"
+					}
+					type: "item"
+				}
+				{
+					id: "1DD5810DA08240D5"
+					item: {
+						components: {
+							"mekanism:items": {
+								items: [{
+									count: 2147483647
+									id: "fluidlogistics:phantom_chain"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_bin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D1530F85C6DF6D2"
+				item: { count: 1, id: "minecraft:chain" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2FC60112245FDE4C"]
+			icon: {
+				id: "create_item_drawers:capacity_upgrade_t5"
+			}
+			id: "5AFD61BF186BFF53"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "34365310EE96692C"
+				item: {
+					components: {
+						"mekanism:items": {
+							items: [{
+								count: 2147483647
+								id: "create_item_drawers:capacity_upgrade_t5"
+							}]
+						}
+					}
+					count: 1
+					id: "mekanism:creative_bin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BE5080BE09A756D"
+				item: { count: 1, id: "create_item_drawers:capacity_upgrade_base" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+}

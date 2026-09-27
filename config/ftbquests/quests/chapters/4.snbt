@@ -9,11 +9,14 @@
 	id: "09D8B51B5B3F549B"
 	images: [ ]
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["4BE3EBC51682F9AE"]
 			id: "3B7B5BE7327832A3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "352AB63D0B0A8242"
 				item: { count: 1, id: "kubejs:wooden_mechanical_core" }
@@ -25,6 +28,7 @@
 		{
 			dependencies: ["2E8AEC57DF818D43"]
 			id: "3FFA774667845FD9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "420C55AC73683CD8"
 				item: { count: 1, id: "kubejs:copper_mechanical_core" }
@@ -35,6 +39,7 @@
 		}
 		{
 			id: "4BE3EBC51682F9AE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "10522EB40136242B"
 				item: { count: 1, id: "kubejs:wooden_hand" }
@@ -45,6 +50,7 @@
 		}
 		{
 			id: "2E8AEC57DF818D43"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3C8F16F664CC9E6F"
 				item: { count: 1, id: "create:copper_casing" }
@@ -56,6 +62,7 @@
 		{
 			dependencies: ["3FFA774667845FD9"]
 			id: "04964DD2609ADD90"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "71B479BC6F4FB4BB"
 				item: { count: 1, id: "kubejs:fluid_set" }
@@ -67,6 +74,7 @@
 		{
 			dependencies: ["3B7B5BE7327832A3"]
 			id: "55491FAEFD5DDE99"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "008836F9EA96FB89"
 				item: { count: 1, id: "kubejs:basic_mechine_set" }
@@ -78,6 +86,7 @@
 		{
 			dependencies: ["5FA9CFF36057CCA3"]
 			id: "5F33F161886A025F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4ED37DE5EAFACE7F"
 				item: { count: 1, id: "kubejs:wood_set" }
@@ -88,6 +97,7 @@
 		}
 		{
 			id: "0E961FE19F236986"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "10CD1E27ABD4DEE7"
 				item: { count: 1, id: "create:brass_hand" }
@@ -99,6 +109,7 @@
 		{
 			dependencies: ["0E961FE19F236986"]
 			id: "5EC698BEBC9AE9AD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6C1C46CA630CC6F5"
 				item: { count: 1, id: "kubejs:brass_mechanical_core" }
@@ -110,6 +121,7 @@
 		{
 			dependencies: ["5EC698BEBC9AE9AD"]
 			id: "128C73BF1074768E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "149EEC79B7C16FF5"
 				item: { count: 1, id: "kubejs:smart_mechine_set" }
@@ -121,6 +133,7 @@
 		{
 			dependencies: ["05E5726075AC822E"]
 			id: "576FE56C7473CA7A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "077524CD9A9FF4D9"
 				item: { count: 1, id: "kubejs:stone_set" }
@@ -132,6 +145,7 @@
 		{
 			dependencies: ["3B7B5BE7327832A3"]
 			id: "6A3415832E98D188"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4DC815C3AD643881"
 				item: { count: 1, id: "kubejs:gearbox_set" }
@@ -142,6 +156,7 @@
 		}
 		{
 			id: "5FA9CFF36057CCA3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3D5E075E11AFFDC8"
 				item: { count: 1, id: "minecraft:stripped_oak_log" }
@@ -152,6 +167,7 @@
 		}
 		{
 			id: "05E5726075AC822E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1B6563C27E70B8B2"
 				item: { count: 1, id: "minecraft:stone" }

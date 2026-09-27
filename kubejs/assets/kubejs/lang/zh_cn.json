@@ -54,6 +54,7 @@
     "item.kubejs.sturdy_essence": "坚固精华",
     "item.kubejs.tree_essence": "树木精华",
     "item.kubejs.precision_essence": "精密精华",
+    "item.kubejs.iron_essence": "工业精华",
     "item.kubejs.essence_ingot": "精华锭",
     "item.kubejs.essence_sheet": "精华板",
 
@@ -62,10 +63,27 @@
 
     "item.kubejs.incomplete_bedrock_mechanism": "基岩构件[半成品]",
     "item.kubejs.bedrock_mechanism": "基岩构件",
+    "item.kubejs.incomplete_essence_mechanism": "精华构件[半成品]",
+    "item.kubejs.incomplete_essence_mechanism_2": "精华构件[半成品]",
+    "item.kubejs.incomplete_essence_mechanism_3": "精华构件[半成品]",
+    "item.kubejs.essence_mechanism": "精华构件",
     "item.kubejs.incomplete_honey_mechanism": "蜂蜜构件[半成品]",
-    "item.kubejs.incomplete_honey_mechanism.tooltip.summary": "辛勤劳作的蜜蜂为你奉献的美食，虽然是半成品，但也足够美味。",
     "item.kubejs.honey_mechanism": "蜂蜜构件",
-    "item.kubejs.honey_mechanism.tooltip.summary": "辛勤劳作的蜜蜂为你奉献的美食，绝世的美味。",
+
+    "item.kubejs.small_cloud": "残云",
+    "item.kubejs.cloud": "云",
+    "item.kubejs.cloud_ingot": "云锭",
+    "item.kubejs.cloud_nugget": "云粒",
+    "item.kubejs.cloud_sheet": "云板",
+    "item.kubejs.cloud_rod": "云棒",
+    "item.kubejs.incomplete_cloud_glue": "云胶[半成品]",
+    "item.kubejs.cloud_glue": "云胶",
+    "item.kubejs.incomplete_cloud_paxel": "云全能工具[半成品]",
+    "item.kubejs.cloud_paxel": "云全能工具",
+    "item.kubejs.incomplete_cloud_mechanism": "云层构件[半成品]",
+    "item.kubejs.incomplete_cloud_mechanism_2": "云层构件[半成品]",
+    "item.kubejs.cloud_mechanism": "云层构件",
+    "item.kubejs.cloud_essence": "云层精华",
 
     "kubejs.recipe.consume": "消耗方块",
     "kubejs.recipe.not_consume": "不消耗方块",
@@ -77,5 +95,12 @@
     
     "tooltip.need_bee": "需要：",
     "tooltip.mobile_beehive.empty": "§7蜂箱是空的",
-    "tooltip.mobile_beehive.contains": "§6蜂箱内容:"
+    "tooltip.mobile_beehive.contains": "§6蜂箱内容:",
+
+    "chemical.kubejs.slime": "黏液",
+    "chemical.kubejs.bedrock": "基岩",
+
+    "fluid.kubejs.cloud": "云",
+    "block.kubejs.cloud": "云",
+    "item.kubejs.cloud_bucket": "云桶"
 }

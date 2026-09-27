@@ -11,10 +11,6 @@ RecipeViewerEvents.removeCategories(event => {
     event.remove('productivebees:centrifuge')
     event.remove('productivebees:incubation')
     event.remove('productivebees:item_conversion')
-
-    event.remove('createoreexcavation:drilling')
-    event.remove('createoreexcavation:extracting')
-    event.remove('createoreexcavation:vein')
 })
 
 RecipeViewerEvents.removeRecipes(event => {

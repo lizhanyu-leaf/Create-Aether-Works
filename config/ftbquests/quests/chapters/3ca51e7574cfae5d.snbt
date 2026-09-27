@@ -3,9 +3,204 @@
 	default_quest_shape: ""
 	filename: "3ca51e7574cfae5d"
 	group: "7E0DD3B1F18F3952"
+	icon: {
+		id: "kubejs:small_cloud"
+	}
 	id: "3CA51E7574CFAE5D"
 	images: [ ]
-	order_index: 9
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [
+		{
+			dependency: "q:61ea556efc11012d"
+			reveal_on_hover: 1b
+			source: "q:5b0271925b2889da"
+		}
+		{
+			dependency: "q:1cdc5451de1eb689"
+			reveal_on_hover: 1b
+			source: "q:61ea556efc11012d"
+		}
+		{
+			dependency: "q:61ea556efc11012d"
+			reveal_on_hover: 1b
+			source: "q:7c0ca9b72033c696"
+		}
+	]
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["72D7ADF95A87F4B7"]
+			hide_until_deps_complete: true
+			id: "38ECDBB46CFEF854"
+			preset: "normal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "786014A96C21ABC2"
+				item: { count: 1, id: "kubejs:small_cloud" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38ECDBB46CFEF854"]
+			id: "51030FF49AE968AE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1FE96AA03370E0D8"
+				item: { count: 1, id: "kubejs:cloud" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51030FF49AE968AE"]
+			id: "7A19A18F42B7EBAB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5DF7F6761201A398"
+				item: { count: 1, id: "kubejs:cloud_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A19A18F42B7EBAB"]
+			id: "503435FCEAB218F3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2602F62CC4C0665B"
+				item: { count: 1, id: "kubejs:cloud_sheet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["503435FCEAB218F3"]
+			id: "1CDC5451DE1EB689"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6D8B46F99ECC786E"
+				item: { count: 1, id: "kubejs:cloud_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CDC5451DE1EB689"]
+			id: "61EA556EFC11012D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7533FC1EEECB30EF"
+				item: { count: 1, id: "kubejs:cloud_nugget" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1CDC5451DE1EB689"]
+			id: "7954C67F81A030B2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "14679B487ECA0B56"
+				item: { count: 1, id: "kubejs:cloud_rod" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"61EA556EFC11012D"
+				"503435FCEAB218F3"
+			]
+			id: "5B0271925B2889DA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "24642A1E339B62F2"
+				item: { count: 1, id: "kubejs:incomplete_cloud_glue" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"61EA556EFC11012D"
+				"7954C67F81A030B2"
+				"503435FCEAB218F3"
+				"1CDC5451DE1EB689"
+				"33D3998CF7548A4B"
+			]
+			id: "7C0CA9B72033C696"
+			quest_enhance_disable_scroll_paging: false
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "711DDC1C545E2195"
+				item: { count: 1, id: "kubejs:cloud_paxel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B0271925B2889DA"]
+			id: "33D3998CF7548A4B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "035EBDCF621DD301"
+				item: { count: 1, id: "kubejs:cloud_glue" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"33D3998CF7548A4B"
+				"7C0CA9B72033C696"
+			]
+			id: "6652B154E547D3BD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0CD685A20FFBD48F"
+				item: { count: 1, id: "kubejs:incomplete_cloud_mechanism_2" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6652B154E547D3BD"]
+			id: "0B93DC3EAC80939E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6AD4A23E7D61D101"
+				item: { count: 1, id: "kubejs:cloud_mechanism" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0B93DC3EAC80939E"]
+			id: "55E599A75E0452E4"
+			preset: "goal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "78ECE46E4333CB49"
+				item: { count: 1, id: "kubejs:cloud_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
 }

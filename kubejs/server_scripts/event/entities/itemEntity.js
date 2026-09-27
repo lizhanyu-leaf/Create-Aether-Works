@@ -266,6 +266,7 @@ LevelEvents.tick(event => {
     
     level.getEntities().forEach(entity => {
         if (!entity.isItem()) return;
+        // Fall Item 处理
         for (let key in itemFallList) {
             let fallValue = itemFallList[key]
             if (entity.uuid == key) {
@@ -295,6 +296,56 @@ LevelEvents.tick(event => {
                     // ✅ 无论成功还是失败，都停止追踪
                     delete itemFallList[key]
                 }
+            }
+        }
+
+        // 残云转化
+        if (entity.getItem()['is(net.minecraft.world.item.Item)']('kubejs:small_cloud')) {
+            if (entity.onGround()) {
+                entity.pickUpDelay = 0
+                return;
+            }
+            if (entity.getY() < 200) return;
+            entity.pickUpDelay = 32767
+            if (Math.random() < 0.01) { 
+                if (entity.getItem().getCount() > 1) 
+                    entity.setItem(Item.of('kubejs:small_cloud', entity.getItem().getCount() - 1));
+                else entity.kill();
+                let itemEntity = level.createEntity('minecraft:item')
+                itemEntity.setItem(Item.of('kubejs:cloud', 1))
+                itemEntity.setPosition(
+                    entity.getX(),
+                    entity.getY(),
+                    entity.getZ()
+                )
+                itemEntity.setGlowing(true)
+                itemEntity.spawn()
+                spawnParticles(level, entity.position(), 'minecraft:poof', 20, 0.3)
+            }
+        }
+
+        // 上述逻辑一致
+        if (entity.getItem()['is(net.minecraft.world.item.Item)']('kubejs:incomplete_cloud_mechanism_2')) {
+            if (entity.onGround()) {
+                entity.pickUpDelay = 0
+                return;
+            }
+            if (entity.getY() < 200) return;
+            entity.pickUpDelay = 32767
+            if (Math.random() < 0.01) { 
+                if (entity.getItem().getCount() > 1) 
+                    entity.setItem(Item.of('kubejs:incomplete_cloud_mechanism_2', entity.getItem().getCount() - 1));
+                else entity.kill();
+                let itemEntity = level.createEntity('minecraft:item')
+                itemEntity.setItem(Item.of('kubejs:cloud_mechanism', 1))
+                itemEntity.setPosition(
+                    entity.getX(),
+                    entity.getY(),
+                    entity.getZ()
+                )
+                itemEntity.setGlowing(true)
+                itemEntity.spawn()
+                spawnParticles(level, entity.position(), 'minecraft:poof', 20, 0.3)
             }
         }
     })

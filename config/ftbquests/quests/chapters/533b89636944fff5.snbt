@@ -5,7 +5,9 @@
 	group: "7E0DD3B1F18F3952"
 	id: "533B89636944FFF5"
 	images: [ ]
-	order_index: 14
+	order_index: 7
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [ ]
 }

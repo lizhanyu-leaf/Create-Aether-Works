@@ -9,6 +9,8 @@
 	id: "5F03F4788C5FAE48"
 	images: [ ]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,6 +18,7 @@
 				id: "minecraft:grass_block"
 			}
 			id: "34FDE69356BB9F78"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "5495E8012FDFB378"
@@ -69,6 +72,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1CED739906DF3DD0"
+					item: {
+						count: 1
+						id: "constructionstick:iron_stick"
+					}
+					type: "item"
+				}
 			]
 			shape: "circle"
 			size: 3.0d
@@ -86,6 +97,7 @@
 		{
 			dependencies: ["34FDE69356BB9F78"]
 			id: "23F7099BF47D544F"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 64
@@ -124,6 +136,7 @@
 		{
 			dependencies: ["23F7099BF47D544F"]
 			id: "5AEB55DE98D466F2"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "73078D50CE66687B"
 				item: {
@@ -143,6 +156,7 @@
 		{
 			dependencies: ["5AEB55DE98D466F2"]
 			id: "6B26EA5FE9B73299"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "38C907AC12894C16"
@@ -166,6 +180,7 @@
 		{
 			dependencies: ["6B26EA5FE9B73299"]
 			id: "08A87B8D7FBFEEBD"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 32
 				id: "6A814DDC6655E3AC"
@@ -198,6 +213,7 @@
 				id: "minecraft:totem_of_undying"
 			}
 			id: "5CE4ADEB507EA675"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "6049402C95D4AD75"
@@ -212,15 +228,6 @@
 					item: {
 						count: 1
 						id: "createaddition:creative_energy"
-					}
-					type: "item"
-				}
-				{
-					count: 6
-					id: "07CD16353AF9B5C1"
-					item: {
-						count: 1
-						id: "createaddition:electric_motor"
 					}
 					type: "item"
 				}
@@ -257,6 +264,31 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1270F989D51D0200"
+					item: {
+						count: 1
+						id: "kubejs:cloud_paxel"
+					}
+					type: "item"
+				}
+				{
+					id: "5F1D6A8A0C55D7A7"
+					item: {
+						count: 1
+						id: "kubejs:cloud_glue"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "54B6EE30F19D447E"
+					item: {
+						count: 1
+						id: "kubejs:honey_mechanism"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "415F07536C12D47E"
@@ -271,6 +303,7 @@
 				id: "minecraft:dirt"
 			}
 			id: "5D8E01A6FAB31B2A"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "709D6A85964AF836"
 				item: {
@@ -290,12 +323,15 @@
 			can_repeat: true
 			dependencies: ["34FDE69356BB9F78"]
 			id: "28717B551B6E88D1"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				command: "/attribute @s neoforge:creative_flight base set 1"
 				icon: {
 					id: "minecraft:feather"
 				}
 				id: "5DA2E1B10DA0F023"
+				permission_level: 4
+				silent: true
 				type: "command"
 			}]
 			tasks: [{

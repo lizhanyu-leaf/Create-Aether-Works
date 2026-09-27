@@ -3,36 +3,44 @@
 	default_quest_shape: ""
 	filename: "672d8a06e74a22df"
 	group: "0F6E9688F8B17385"
+	icon: {
+		id: "kubejs:essence_ingot"
+	}
 	id: "672D8A06E74A22DF"
 	images: [ ]
-	order_index: 3
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["756CE82FDB1E38E2"]
 			id: "7019259410FB664C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "433270574F7703BC"
 				item: { count: 1, id: "kubejs:natural_essence" }
 				type: "item"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1E6FB2050B4940EA"]
 			id: "735A9D9D989623E3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0E42826159BAAF65"
 				item: { count: 1, id: "kubejs:slime_essence" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5B79D97AF92ABEE0"]
 			id: "30FA98EEB45E35BF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "63D6EEDD21166494"
 				item: { count: 1, id: "kubejs:sturdy_essence" }
@@ -44,6 +52,7 @@
 		{
 			dependencies: ["46C49AA0D76A640E"]
 			id: "40070CC2CB9C6465"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "61830939AA77D9A9"
 				item: { count: 1, id: "kubejs:blaze_essence" }
@@ -55,24 +64,26 @@
 		{
 			dependencies: ["512A37467F2C27AA"]
 			id: "361B98292C48003C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5F5C0AEF9B9E890B"
 				item: { count: 1, id: "kubejs:precision_essence" }
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1E58B01C887587ED"]
 			id: "0F6AD39F8801D309"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "274864D1B26619F3"
 				item: { count: 1, id: "kubejs:smart_essence" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -82,9 +93,15 @@
 				"7019259410FB664C"
 				"40070CC2CB9C6465"
 				"0F6AD39F8801D309"
+				"2D403153A29B826F"
+				"28B2EB7B49944BB7"
+				"101BB3D1C1086C7A"
+				"70E33F53F26CC531"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "78FD83B857E40A4B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				consume_items: true
 				count: 1024L
@@ -97,6 +114,7 @@
 		}
 		{
 			id: "46C49AA0D76A640E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1D35549FE7CCE086"
 				item: { count: 1, id: "minecraft:blaze_powder" }
@@ -107,46 +125,51 @@
 		}
 		{
 			id: "512A37467F2C27AA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1919C81EFE7E424D"
 				item: { count: 1, id: "create:precision_mechanism" }
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "1E58B01C887587ED"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5B1FC6D7CAC7F335"
 				item: { count: 1, id: "create:brass_hand" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			id: "1E6FB2050B4940EA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "280D5CE4C090861A"
 				item: { count: 1, id: "minecraft:slime_ball" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			id: "756CE82FDB1E38E2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "54DB46C312D184D1"
 				item: { count: 1, id: "minecraft:moss_block" }
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "5B79D97AF92ABEE0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "016BBE11ECF39149"
 				item: { count: 1, id: "create:powdered_obsidian" }
@@ -154,6 +177,141 @@
 			}]
 			x: 2.5d
 			y: 1.5d
+		}
+		{
+			id: "28B2EB7B49944BB7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1CB41B3001F898AB"
+				item: { count: 1, id: "kubejs:stone_set" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "2D403153A29B826F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3D366E2A647BF98C"
+				item: { count: 1, id: "kubejs:wood_set" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F45032433EF3DC2"]
+			id: "101BB3D1C1086C7A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3A36BA35EC929AC7"
+				item: { count: 1, id: "kubejs:iron_essence" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["205A4A7606B1DED7"]
+			id: "70E33F53F26CC531"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "087FCBDE91003E66"
+				item: { count: 1, id: "kubejs:water_essence" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "4F45032433EF3DC2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "610172DD9C11AE13"
+				item: { count: 1, id: "create:metal_girder" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "205A4A7606B1DED7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "63A2F62EEF8D2ADB"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78FD83B857E40A4B"]
+			id: "263A6A915CDF6A1F"
+			preset: "goal"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "72D7ADF95A87F4B7"
+				item: { count: 1, id: "kubejs:essence_mechanism" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["263A6A915CDF6A1F"]
+			id: "1DEA41A75D02355A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 4
+				id: "42AC14E10568B92D"
+				item: {
+					count: 1
+					id: "createoreexcavation:drilling_machine"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52D837EA8D9DAC76"
+				item: { count: 1, id: "createoreexcavation:drilling_machine" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["263A6A915CDF6A1F"]
+			icon: {
+				id: "createoreexcavation:vein_atlas"
+			}
+			id: "60D446A44C3EDDA9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "5DA864977D22FD59"
+					item: {
+						count: 1
+						id: "createoreexcavation:vein_atlas"
+					}
+					type: "item"
+				}
+				{
+					id: "70C99F54E5CC37B0"
+					item: {
+						count: 1
+						id: "createoreexcavation:vein_finder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4456B63D1EC63EBC"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -7.0d
 		}
 	]
 }

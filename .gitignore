@@ -19,6 +19,9 @@ xaero/*
 /XaeroWaypoints*/
 PCL/*
 
+config/jei/*
+config/mezz_config/*
+
 kubejs/config/*
 kubejs/jsconfig.json
 kubejs/*/jsconfig.json

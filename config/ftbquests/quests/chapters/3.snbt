@@ -9,6 +9,8 @@
 	id: "54883D8FAE2B0927"
 	images: [ ]
 	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,6 +18,7 @@
 				id: "create:honey_bucket"
 			}
 			id: "5A39E0DA2EF2681C"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "3CD794B28981AEC2"
@@ -40,11 +43,12 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A39E0DA2EF2681C"]
 			id: "066DC44DF0B37D25"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "07F6966AB6324F23"
 				item: {
@@ -66,13 +70,13 @@
 				}
 			]
 			x: 0.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: false
 			dependencies: ["066DC44DF0B37D25"]
-			hide_dependent_lines: true
 			id: "0CD4E83C28DF6168"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "0558281B9E11088F"
 				item: {
@@ -89,252 +93,212 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
-		}
-		{
-			can_repeat: true
-			id: "06157F589BB93DE2"
-			rewards: [{
-				id: "1DAD58C8FD281332"
-				item: {
-					components: {
-						"minecraft:entity_data": {
-							id: "productivebees:configurable_bee"
-							type: "productivebees:oak_log"
-						}
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 4096L
-				id: "26A0D10B771E65BB"
-				item: { count: 1, id: "minecraft:oak_log" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -5.5d
-		}
-		{
-			id: "7B9272BA6D435710"
-			rewards: [{
-				id: "0694188FC877DC70"
-				item: {
-					components: {
-						"minecraft:entity_data": {
-							id: "productivebees:configurable_bee"
-							type: "productivebees:stone"
-						}
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 4096L
-				id: "1CA7F36A9BCB3BD6"
-				item: { count: 1, id: "minecraft:stone" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			id: "3273475FBFF3C99E"
-			rewards: [{
-				id: "6ECB5A755B409045"
-				item: {
-					components: {
-						"minecraft:entity_data": {
-							id: "productivebees:configurable_bee"
-							type: "productivebees:slimy"
-						}
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 256L
-				id: "226701F79A722D30"
-				item: { count: 1, id: "minecraft:slime_ball" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -3.5d
-		}
-		{
-			can_repeat: true
-			id: "7D0B9D374A0B86AD"
-			rewards: [{
-				id: "275906E687FE1D7B"
-				item: {
-					components: {
-						"minecraft:entity_data": {
-							id: "productivebees:configurable_bee"
-							type: "productivebees:blazing"
-						}
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 256L
-				id: "0562017142A0A89B"
-				item: { count: 1, id: "minecraft:blaze_powder" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
-		}
-		{
-			can_repeat: true
-			id: "0DBC6021AB638123"
-			rewards: [{
-				id: "534DE587EB469552"
-				item: {
-					components: {
-						"minecraft:entity_data": {
-							id: "productivebees:configurable_bee"
-							type: "productivebees:iron"
-						}
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 1024L
-				id: "574D5CC801E2EC04"
-				item: { count: 1, id: "minecraft:iron_ingot" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			id: "5665D2615B5B16AE"
-			rewards: [{
-				id: "69BEF597C4FE7245"
-				item: {
-					components: {
-						"minecraft:entity_data": {
-							id: "productivebees:configurable_bee"
-							type: "productivebees:gold"
-						}
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 1024L
-				id: "453BD43C0899F93C"
-				item: { count: 1, id: "minecraft:gold_ingot" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			id: "68BE9DB369A7C377"
-			rewards: [{
-				id: "1CD2DF38A58DD6AA"
-				item: {
-					components: {
-						"minecraft:entity_data": {
-							id: "productivebees:configurable_bee"
-							type: "productivebees:zinc"
-						}
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 1024L
-				id: "4BD93764F252E846"
-				item: { count: 1, id: "create:zinc_ingot" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			can_repeat: true
-			id: "59D417B05688FEFD"
-			rewards: [{
-				id: "06F92BD2FCC3CFDA"
-				item: {
-					components: {
-						"minecraft:entity_data": {
-							id: "productivebees:configurable_bee"
-							type: "productivebees:copper"
-						}
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 1024L
-				id: "7501C185895D6B6F"
-				item: { count: 1, id: "minecraft:copper_ingot" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0CD4E83C28DF6168"]
 			id: "1BA2EA0F25883768"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0DE6D443543210C9"
 				item: { count: 1, id: "kubejs:honey_mechanism" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1BA2EA0F25883768"]
+			hide_dependent_lines: true
 			id: "04A9160102583CA8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6C6BAF56A50026C0"
 				item: { count: 1, id: "kubejs:honey_pack" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "7C1298BED4C678BF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "643B3788582F3065"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:oak_log" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "minecraft:stone"
+			}
+			id: "3A6F63094217050D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "43C5914B5456E69D"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:stone" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "minecraft:slime_block"
+			}
+			id: "7CE96D4A49D4CDA2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "73A72A5EB55F4DB0"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:slimy" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "6CB9D09ECADC6D2C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "75918CEA95B41800"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:blazing" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "create:zinc_ingot"
+			}
+			id: "6BD047F332E45670"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "75104BAA67C2AF50"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:zinc" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "255F88AC11AD01AB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6980E8A5B55DBD9D"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:iron" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "minecraft:gold_ingot"
+			}
+			id: "45683B2E5A214456"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0A4A4DF18CD527D7"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:gold" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "minecraft:copper_ingot"
+			}
+			id: "449E7D70C76C0498"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3467CF8AFCF3074C"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:copper" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "minecraft:redstone"
+			}
+			id: "5CF60A4287900AC8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "32288C72038B95C6"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:redstone" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "minecraft:quartz"
+			}
+			id: "030D5D10E1C39014"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4836022AE60E32EA"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:crystalline" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "133CC312B3F50CD5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5C1F7E270D296B6F"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:brass" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04A9160102583CA8"]
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "22A655EAA4E7FB2B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7888B1665C172E45"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:andesite_alloy" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
 		}
 	]
 }
